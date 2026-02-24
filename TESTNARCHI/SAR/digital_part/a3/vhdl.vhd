@@ -1,0 +1,106 @@
+architecture a3 of digital_part is 
+
+type state_machine is (SAMPLE, HOLD, COMPARE);
+signal state : state_machine :=SAMPLE;
+
+signal cont: integer; -- Approximation counter
+signal N: integer := 8; -- ADC number of bits
+
+signal partialResult :  std_logic_vector(7 downto 0) ;
+signal lastResult :  std_logic_vector(7 downto 0) ;
+signal SAcmd, SBcmd : std_logic;
+signal  Smcmd :  std_logic_vector(8 downto 0);
+
+
+begin
+
+
+
+ process(clock)
+	begin
+		if (reset='0') then
+			state <= SAMPLE;
+			cont<=0;
+			SAcmd<='1';
+			SBcmd<='0';
+			Smcmd <= (others =>'1');
+			partialResult <= (others =>'0');
+			lastResult <= (others =>'0');
+
+		elsif rising_edge(clock) then
+			case state is
+				when SAMPLE => -- Sampling state
+					result <= lastResult;
+					cont<=0;
+					SAcmd<='1';
+					SBcmd<='0';
+					Smcmd <= (others =>'1');
+					partialResult <= (others =>'0');
+					if (start ='1') then
+					    state<= HOLD;
+						SAcmd<='0';
+						SBcmd<='0';
+						Smcmd <= (others =>'1');
+					end if;
+							
+				when HOLD => -- Hold state
+					state<= COMPARE;
+					SAcmd<='0';
+					SBcmd<='1';
+					for i in integer range 0 to N-1 loop
+						Smcmd(i) <='0';
+					end loop;
+					Smcmd(N) <='1';
+					cont<=1;
+
+
+				when COMPARE => -- Compare state during N steps
+					
+
+					-- cont-th guess
+				--	if (cont < N) then
+						partialResult(cont-1) <= comp;
+						--Smcmd(N-cont+1) <= '1';--change in the first try
+				   -- end if;
+
+					Smcmd(N-cont+1) <= comp;
+					-- switchs from left ro right (msb)
+if (cont > 1) then
+					for i in  integer range 0 to cont-2 loop 
+						Smcmd(N-i) <= partialResult(i);
+					end loop;
+end if;
+
+					-- set lsb to zero
+					for i in  integer range N-cont+2 to N loop 
+						Smcmd(i) <= '0';
+					end loop;
+			
+					if (cont<N) then
+						cont<=cont+1;
+Smcmd(N-cont) <= '1';
+					else
+						state<=SAMPLE;
+						cont<=0;
+						SAcmd<='1';
+						SBcmd<='0';
+						Smcmd <= (others =>'1');
+						lastResult <= partialResult;
+					
+					end if;
+					
+				when others => null;
+			end case;
+			SAm<= not SAcmd;
+			SAp<= SAcmd;
+			SBm<= not SBcmd;
+			SBp<= SBcmd;
+			Sm <= not Smcmd;
+			Sp <= Smcmd;
+			
+		end if;
+end process; 
+
+clkcomp <= clock;
+
+end architecture a3 ; 

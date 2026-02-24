@@ -1,0 +1,4 @@
+("SAR" "test_sar8" "schematic" nil) 4
+("SAR" "switch" "schematic" nil) 1
+("SAR" "sar8" "schematic" nil) 3
+("SAR" "switch2" "schematic" nil) 1

@@ -1,0 +1,14 @@
+cellMap,*test_switch,*test_switch,*null,*null
+topMap,*test_switch
+netMap,*test_switch,*gnd!,*0
+netMap,*test_switch,*vdd!,*vdd!
+instMap,*test_switch,*V3,*V3
+instMaster,*test_switch,*V3,*analogLib_idc_spectre,*isource
+instMap,*test_switch,*V5,*V5
+instMaster,*test_switch,*V5,*analogLib_vdc_spectre,*vsource
+instMap,*test_switch,*V4,*V4
+instMaster,*test_switch,*V4,*analogLib_vdc_spectre,*vsource
+instMap,*test_switch,*V0,*V0
+instMaster,*test_switch,*V0,*analogLib_vdc_spectre,*vsource
+instMap,*test_switch,*E0,*E0
+instMaster,*test_switch,*E0,*analogLib_vcvs_spectre,*vcvs

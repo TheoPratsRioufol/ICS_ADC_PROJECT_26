@@ -1,0 +1,14 @@
+CADENCE IHNL11140
+$model
+SAR/test_switch/schematic test_switch
+SAR/switch/schematic switch
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+L L
+wn wn
+wp wp
+$endparam

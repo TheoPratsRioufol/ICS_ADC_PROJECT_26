@@ -1,0 +1,27 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-ALLOWREDEFINITION
+-SMARTLIB
+-UPDATE
+-CDSLIB
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
+-HDLVAR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/hdlrun.var
+-amscommfile
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amscomm.list
+-work
+SAR
+-messages
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/entity/vhdl.vhd

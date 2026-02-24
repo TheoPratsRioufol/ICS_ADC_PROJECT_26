@@ -1,0 +1,4 @@
+
+wire \gnd! ;
+
+wire \vdd! ;

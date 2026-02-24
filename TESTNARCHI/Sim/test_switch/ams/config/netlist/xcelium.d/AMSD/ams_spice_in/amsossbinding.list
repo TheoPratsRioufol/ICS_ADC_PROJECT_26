@@ -1,0 +1,4 @@
+designtop="SAR.test_switch:schematic"
+cell="vcvs" view="analogtext" 
+cell="isource" view="analogtext" 
+cell="vsource" view="analogtext" 

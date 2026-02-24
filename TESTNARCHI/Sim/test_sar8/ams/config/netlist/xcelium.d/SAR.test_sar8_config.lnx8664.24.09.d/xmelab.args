@@ -1,0 +1,71 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++define+CDS_SELECT_CRS
++define+CONNRULES_3V_FULL_FAST
+-SPECTRE_ARGS
+"-ahdllibdir xcelium.d/AMSD/ahdlSimDB"
+-amsossirunbind
+.amsbind.scs
+-AMSINPUT
+.amsbind.scs
+-UNBUFFERED
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-timescale
+1ns/1ns
+-DISCIPLINE
+logic
+-DELAY_MODE
+None
+-NOVITALACCL
+-ACCESS
+r
+-NOPARAMERR
+-AMSPARTINFO
+../psf/partition.info
+-RNM_PARTINFO
+-MODELINCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-AMSINPUT
+./spiceModels.scs
+-ANALOGCONTROL
+./spiceModels.scs
+-AMSINPUT
+./amsControlSpectre.scs
+-ANALOGCONTROL
+./amsControlSpectre.scs
+-AMSCONNRULES
+ConnRules_3V_full_fast
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams lib:SAR cell:voltage_gene view:verilogams"
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams lib:SAR cell:save_es view:verilogams"
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams lib:SAR cell:switched_comparator view:verilogams"
+-SPECTRE_ARGS
++aps
+-MESSAGES
+SAR.test_sar8:schematic
+cds_globals
+-AMSELAB
+-DMS_ELAB_REPORT
+9
+-XLMODE
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/cds.lib
+-HDLVAR
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/hdl.var
+-WORK
+worklib
+-IRUNHASTOP
+-HASXLMODE

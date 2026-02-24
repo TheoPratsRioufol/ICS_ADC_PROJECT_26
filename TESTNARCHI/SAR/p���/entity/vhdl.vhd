@@ -1,0 +1,1 @@
+../../digital_part/entity/vhdl.vhd

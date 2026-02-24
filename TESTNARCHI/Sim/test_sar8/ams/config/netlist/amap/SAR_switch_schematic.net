@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"CMD+v" "\\CMD+ v"
+"CMD-v" "\\CMD- v"
+"S+v" "\\S+ v"
+"S-v" "\\S- v"
+"gnd!v" "cds_globals.\\gnd! v"
+"vdd!v" "cds_globals.\\vdd! v"
+"vdd3!v" "cds_globals.\\vdd3! v"

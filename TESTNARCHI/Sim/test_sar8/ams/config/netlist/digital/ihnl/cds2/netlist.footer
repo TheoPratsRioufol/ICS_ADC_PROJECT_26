@@ -1,0 +1,42 @@
+
+switch SA ( .\S+ (Vref2), .\CMD+ (SAp), .\CMD- (SAm), .\S- (VA));
+
+digital_part I9 ( .clkcomp(clkcomp), .start(start), .clock(clock), 
+    .reset(reset), .result(result), .sm(Sm), .sp(Sp), .sam(SAm), 
+    .sap(SAp), .sbm(SBm), .sbp(SBp), .comp(comp));
+
+switch2 I34 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[4]), 
+    .\CMD- (Sm[4]), .\S- (net26));
+
+switch2 SB ( .S2(Vref), .S1(Analog_in), .\CMD+ (SBp), .\CMD- (SBm), 
+    .\S- (net5));
+
+switch2 I35 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[5]), 
+    .\CMD- (Sm[5]), .\S- (net19));
+
+switch2 I37 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[6]), 
+    .\CMD- (Sm[6]), .\S- (net21));
+
+switch2 I36 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[7]), 
+    .\CMD- (Sm[7]), .\S- (net20));
+
+switch2 I38 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[2]), 
+    .\CMD- (Sm[2]), .\S- (net12));
+
+switch2 I39 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[3]), 
+    .\CMD- (Sm[3]), .\S- (net13));
+
+switch2 I40 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[1]), 
+    .\CMD- (Sm[1]), .\S- (net9));
+
+switch2 S0 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[0]), .\CMD- 
+    (Sm[0]), .\S- (net6));
+
+switch2 I42 ( .S2(net5), .S1(cds_globals.\gnd! ), .\CMD+ (Sp[8]), 
+    .\CMD- (Sm[8]), .\S- (net2));
+
+switched_comparator I63 ( .Outp(net3), .vdda(cds_globals.\vdd3! ), 
+    .gnda(cds_globals.\gnd! ), .vinm(Vref2), .Outn(comp), 
+    .clock(clock), .vinp(VA));
+
+endmodule

@@ -1,0 +1,20 @@
+CADENCE IHNL04120
+$model
+SAR/sar8/schematic SAR/sar8/schematic/schematic/SAR_test_sar8_config/0 sar8
+SAR/test_sar8/schematic SAR/test_sar8/schematic/schematic/SAR_test_sar8_config/1 test_sar8
+SAR/switch/schematic SAR/switch/schematic/schematic/SAR_test_sar8_config/0 switch
+SAR/switch2/schematic SAR/switch2/schematic/schematic/SAR_test_sar8_config/0 switch2
+$endmodel
+$net
+gnd! 0
+vdd3! vdd3!
+vdd! vdd!
+$endnet
+$param
+L L
+Vref Vref
+wn wn
+C C
+wp wp
+Vcm Vcm
+$endparam

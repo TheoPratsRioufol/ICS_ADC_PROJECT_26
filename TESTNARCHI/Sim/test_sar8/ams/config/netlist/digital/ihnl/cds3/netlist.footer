@@ -1,0 +1,12 @@
+
+sar8 I19 ( .result(result[7:0]), .Analog_in(Analog_in), .clock(clock), 
+    .reset(reset), .start(start));
+
+save_es I18 ( .s(result), .clock(start), .inp(Analog_in));
+
+digital_gene I16 ( .start(start), .clock(clock), .reset(reset));
+
+voltage_gene I17 ( .vout_n(cds_globals.\gnd! ), .vout_p(Analog_in), 
+    .clock(start));
+
+endmodule

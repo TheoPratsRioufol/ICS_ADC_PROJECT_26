@@ -1,0 +1,5 @@
+cds.lib: ${AMS_CDS_LIB} 
+lib:  SAR 
+cell: test_switch 
+view: config 
+topCellLib: SAR 

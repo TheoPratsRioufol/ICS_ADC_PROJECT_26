@@ -1,0 +1,268 @@
+`include "constants.vams"
+
+nature Power
+  access = Pwr;
+  units = "W";
+  abstol = 1e-09;
+endnature
+
+
+nature Position
+  access = Pos;
+  units = "m";
+  abstol = 1e-06;
+  ddt_nature = Velocity;
+endnature
+
+
+nature Angular_Acceleration
+  access = Alpha;
+  units = "rads/s^2";
+  abstol = 1e-06;
+  idt_nature = Angular_Velocity;
+endnature
+
+
+nature Temperature
+  access = Temp;
+  units = "C";
+  abstol = 0.0001;
+endnature
+
+
+nature Velocity
+  access = Vel;
+  units = "m/s";
+  abstol = 1e-06;
+  idt_nature = Position;
+  ddt_nature = Acceleration;
+endnature
+
+
+nature Acceleration
+  access = Acc;
+  units = "m/s^2";
+  abstol = 1e-06;
+  idt_nature = Velocity;
+  ddt_nature = Impulse;
+endnature
+
+
+nature Flux
+  access = Phi;
+  units = "Wb";
+  abstol = 1e-09;
+  ddt_nature = Voltage;
+endnature
+
+
+nature Charge
+  access = Q;
+  units = "coul";
+  abstol = 1e-14;
+  ddt_nature = Current;
+endnature
+
+
+nature Impulse
+  access = Imp;
+  units = "m/s^3";
+  abstol = 1e-06;
+  idt_nature = Acceleration;
+endnature
+
+
+nature Voltage
+  access = V;
+  units = "V";
+  abstol = 1e-06;
+  idt_nature = Flux;
+endnature
+
+
+nature Angular_Force
+  access = Tau;
+  units = "N*m";
+  abstol = 1e-06;
+endnature
+
+
+nature Magneto_Motive_Force
+  access = MMF;
+  units = "A*turn";
+  abstol = 1e-12;
+endnature
+
+
+nature Force
+  access = F;
+  units = "N";
+  abstol = 1e-06;
+endnature
+
+
+nature Angular_Velocity
+  access = Omega;
+  units = "rads/s";
+  abstol = 1e-06;
+  idt_nature = Angle;
+  ddt_nature = Angular_Acceleration;
+endnature
+
+
+nature Current
+  access = I;
+  units = "A";
+  abstol = 1e-12;
+  idt_nature = Charge;
+endnature
+
+
+nature Angle
+  access = Theta;
+  units = "rads";
+  abstol = 1e-06;
+  ddt_nature = Angular_Velocity;
+endnature
+
+
+discipline kinematic_v
+  domain continuous;
+  potential Velocity;
+  flow Force;
+enddiscipline
+
+
+discipline rotational_omega
+  domain continuous;
+  potential Angular_Velocity;
+  flow Angular_Force;
+enddiscipline
+
+
+discipline electrical
+  domain continuous;
+  potential Voltage;
+  flow Current;
+enddiscipline
+
+
+discipline rotational
+  domain continuous;
+  potential Angle;
+  flow Angular_Force;
+enddiscipline
+
+
+discipline kinematic
+  domain continuous;
+  potential Position;
+  flow Force;
+enddiscipline
+
+
+discipline voltage
+  domain continuous;
+  potential Voltage;
+enddiscipline
+
+
+discipline magnetic
+  domain continuous;
+  potential Magneto_Motive_Force;
+  flow Flux;
+enddiscipline
+
+
+discipline thermal
+  domain continuous;
+  potential Temperature;
+  flow Power;
+enddiscipline
+
+
+discipline current
+  domain continuous;
+  potential Current;
+enddiscipline
+
+(* vams_to_va="/usr/local/cadence/xcelium_24.09.011/tools.lnx86/affirma_ams/etc/connect_lib/L2E_2.vams" *)
+(* ams_ie *)
+
+module connectLib__L2E_2__module__0x10000001_behavioral(Aout);
+ //L=75
+parameter real vsup = 1.8;
+//L=76
+parameter real vlo = 0;
+//L=77
+parameter real vhi = (vlo+vsup);
+//L=78
+parameter real vthi = (vsup/1.5);
+//L=79
+parameter real vtlo = (vsup/3);
+//L=80
+parameter real vx = vlo;
+//L=81
+parameter real tr = 2e-10;
+//L=82
+parameter real tf = tr;
+//L=83
+parameter real ttol_t = ((tr+tf)/20);
+//L=84
+parameter real tdelay = 0;
+//L=85
+parameter real tdeltran_fall = tdelay;
+//L=86
+parameter real rhi = 200;
+//L=87
+parameter real rlo = rhi;
+//L=88
+parameter real rz = 10000000.0;
+//L=89
+parameter real rx = (10*(rlo+rhi));
+//L=90
+parameter integer debug = 0;
+//L=91
+parameter real vinlimit = ((vsup*4)/3);
+//L=93
+parameter real r_SUPPLY = (((((rhi > rlo)?rlo:rhi)/2.5) < 4)?(((rhi > rlo)?rlo:rhi)/2.5):4);
+//L=94
+parameter real r_STRONG = ((rhi+rlo)/2);
+//L=95
+parameter real r_PULL = 1500.0;
+//L=96
+parameter real r_LARGE = 9000.0;
+//L=97
+parameter real r_WEAK = 55000.0;
+//L=98
+parameter real r_MEDIUM = 320000.0;
+//L=99
+parameter real r_SMALL = 1900000.0;
+//L=100
+localparam integer has_delay = (((tdelay+tdeltran_fall) > 0)?1:0);
+//L=73
+electrical Aout;
+//L=103
+real rout;
+//L=103
+real vout;
+//L=102
+(* digital="13" *) parameter real Vstate;
+//L=102
+(* digital="13" *) parameter real Rout;
+//L=104
+(* digital="13" *) parameter real tdelayvar;
+analog
+   begin
+//L=189
+    (rout = (transition(Rout, tdelayvar, tr, tf, ttol_t)));
+//L=190
+    (vout = (transition(Vstate, tdelayvar, tr, tf, ttol_t)));
+//L=191
+    if (((rhi == 0) || (rlo == 0))) //L=192
+    V(Aout)  <+ (vout+(I(Aout) *rout));
+ else //L=194
+    I(Aout)  <+ ((V(Aout) -vout)/rout);
+  end
+
+endmodule

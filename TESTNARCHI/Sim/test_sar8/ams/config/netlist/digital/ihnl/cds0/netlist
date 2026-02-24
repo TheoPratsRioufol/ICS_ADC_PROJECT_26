@@ -1,0 +1,19 @@
+// Library - SAR, Cell - switch, View - schematic
+// LAST TIME SAVED: Jan 28 11:59:46 2026
+// NETLIST TIME: Feb  5 19:04:39 2026
+`timescale 1ns / 1ps 
+
+`worklib SAR
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="SAR", dfII_cell="switch", dfII_view="schematic", worklib_name="SAR", view_name="schematic", last_save_time="Jan 28 11:59:46 2026" *)
+
+module switch (\S+ , \S- , \CMD+ , \CMD- );
+
+inout  \S+ , \S- ;
+
+input  \CMD+ , \CMD- ;
+
+
+endmodule

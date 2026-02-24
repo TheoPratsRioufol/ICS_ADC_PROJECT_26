@@ -1,0 +1,6 @@
+
+// Library name: SAR
+// Cell name: switch
+// View name: schematic
+// Inherited view list: schematic
+subckt switch

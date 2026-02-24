@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-outdir
+./xcelium.d/AMSD/ams_spice_in
+-runmode
+-makelib
+-cdslib
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/cdsrun.lib
+-hdlvar
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/hdlrun.var
+-work
+worklib
+-64bit
+-AMSOSSIRUNBIND
+-amscommfile
+./xcelium.d/AMSD/ams_spice_in/amsossbinding.list
+-amsspice-errfile
+./xcelium.d/AMSD/ams_spice_in/amsspice_binding.log
+-amsi
+./.amsbind.scs
+-modelincdir
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/"

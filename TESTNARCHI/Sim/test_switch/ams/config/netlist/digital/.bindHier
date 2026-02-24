@@ -1,0 +1,4 @@
+("analogLib" "vcvs" "spectre" "spectre") nil
+("analogLib" "idc" "spectre" "spectre") nil
+("SAR" "test_switch" "schematic" "schematic") nil
+("analogLib" "vdc" "spectre" "spectre") nil

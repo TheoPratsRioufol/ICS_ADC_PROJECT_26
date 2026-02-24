@@ -1,0 +1,10 @@
+load('/home/mneref/SAR/Sim/test_sar8/ams/config/netlist/data.txt');
+vin=data(1:2:end)/5 ;
+vout=data(2:2:end)/256 ;
+figure(1);
+subplot(2,1,1);
+plot(vin,vout,'.');
+grid on ;
+subplot(2,1,2);
+plot(vin,vout-vin,'.');
+grid on ;

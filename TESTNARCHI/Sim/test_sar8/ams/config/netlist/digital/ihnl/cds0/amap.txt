@@ -1,0 +1,8 @@
+netMap,*switch,*S+,*\S+ 
+netMap,*switch,*CMD-,*\CMD- 
+netMap,*switch,*S-,*\S- 
+netMap,*switch,*CMD+,*\CMD+ 
+netMap,*switch,*vdd3!,*cds_globals.\vdd3! 
+netMap,*switch,*gnd!,*cds_globals.\gnd! 
+netMap,*switch,*vdd!,*cds_globals.\vdd! 
+cellMap,*switch,*switch,*SAR,*schematic

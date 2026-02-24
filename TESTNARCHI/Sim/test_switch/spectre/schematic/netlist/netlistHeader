@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Feb  5 13:41:13 2026
+// Design library name: SAR
+// Design cell name: test_switch
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

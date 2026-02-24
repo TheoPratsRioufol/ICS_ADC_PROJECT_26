@@ -1,0 +1,20 @@
+CADENCE IHNL04120
+$model
+SAR/sar8/schematic SAR/sar8/schematic/schematic/SAR_test_sar8_config/0 sar8
+SAR/test_sar8/schematic SAR/test_sar8/schematic/schematic/SAR_test_sar8_config/1 test_sar8
+SAR/switch/schematic SAR/switch/schematic/schematic/SAR_test_sar8_config/0 switch
+SAR/switch2/schematic SAR/switch2/schematic/schematic/SAR_test_sar8_config/0 switch2
+$endmodel
+$net
+gnd! cds_globals.\gnd! 
+vdd3! cds_globals.\vdd3! 
+vdd! cds_globals.\vdd! 
+$endnet
+$param
+L cds_globals.L
+Vref cds_globals.Vref
+wn cds_globals.wn
+C cds_globals.C
+wp cds_globals.wp
+Vcm cds_globals.Vcm
+$endparam

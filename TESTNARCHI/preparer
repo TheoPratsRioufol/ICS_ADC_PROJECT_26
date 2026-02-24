@@ -1,0 +1,15 @@
+# CADENCE LICENSE
+export CDS_LIC_FILE=30000@cadence.cnfm.fr
+# version 64 bit
+export CDS_AUTO_64BIT=ALL
+
+source ./cadence_path
+
+# x-fab XH018
+export X_DIR=/usr/local/XFAB
+export PATH=$X_DIR/x_all/cadence/xenv:$PATH
+
+export QT_XCB_GL_INTEGRATION=none
+
+xkit -u -t xh018 --modules 1141 
+

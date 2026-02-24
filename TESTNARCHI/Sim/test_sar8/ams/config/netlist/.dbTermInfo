@@ -1,0 +1,1 @@
+("\\S+ ")("\\S- ")("\\CMD+ ")("\\CMD- ")("\\S- ")("S1")("S2")("\\CMD+ ")("\\CMD- ")("Analog_in")("clock")("reset")("start")("result" 7 0)

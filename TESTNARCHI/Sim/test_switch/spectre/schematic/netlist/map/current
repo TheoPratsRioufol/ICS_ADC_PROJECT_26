@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "test_switch"
+  repList "spectre veriloga ahdl cmos_sch schematic"
+  stopList "spectre veriloga ahdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_switch/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "SAR/test_switch/schematic" "test_switch" )
+( "SAR/switch/schematic" "switch" )
+ )
+( "switch" "ihnl/cds0/map" )
+( "test_switch" "ihnl/cds1/map" )
+ )

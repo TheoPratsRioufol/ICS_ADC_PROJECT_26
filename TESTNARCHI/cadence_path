@@ -1,0 +1,54 @@
+# le fichier de licence
+export CDS_LIC_FILE=30000@cadence.cnfm.fr
+
+# les fichiers technologiques
+export X_DIR=/usr/local/XFAB
+export PATH=$X_DIR/x_all/cadence/xenv:$PATH
+export AMS_DIR=/usr/local/AustriaMS/AMS_4.10
+export PATH=$PATH:$AMS_DIR/cds/bin
+
+# conformal (gestion des bibliotheques)
+export CFMLHOME=/usr/local/cadence/confrml
+export PATH=$PATH:$CFMLHOME/tools/bin
+
+# xcelium (simulation)
+export XCELIUMHOME=/usr/local/cadence/xcelium
+export PATH=$XCELIUMHOME/tools/bin/64bit:$XCELIUMHOME/tools/bin:$PATH
+
+# genus (synthèse)
+export GENUSHOME=/usr/local/cadence/genus
+export PATH=$GENUSHOME/tools/bin:$PATH
+
+# innovus (placement routage)
+export INNOVUSHOME=/usr/local/cadence/innovus
+export PATH=$INNOVUSHOME/tools/bin:$PATH
+
+# QRC (extraction)
+export QRC_HOME=/usr/local/cadence/quantus
+export PATH=$QRC_HOME/tools/bin:$PATH
+
+# PVS
+export PATH=/usr/local/cadence/pvs/tools/bin:$PATH
+
+# virtuoso
+export CDS_ROOT=/usr/local/cadence/ic_6.18    
+export IC_INST_DIR=$CDS_ROOT
+export CDSDIR=$CDS_ROOT
+export CDS_INST_DIR=$CDS_ROOT
+export CDSHOME=$CDS_ROOT
+export PATH=$CDS_ROOT/tools/bin:$CDS_ROOT/tools/dfII/bin:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CDSHOME/tools/lib
+export CDS_AUTO_64BIT=ALL
+export W3264_NO_HOST_CHECK=1
+
+# MMSIM 
+export PATH=/usr/local/cadence/spectre/tools/bin:$PATH
+
+# assura (vérification DRC LVS)
+export ASSURAHOME=/usr/local/cadence/assura_618
+export PATH=$ASSURAHOME/tools/bin:$PATH
+export PATH=$ASSURAHOME/tools/assura/bin:$PATH:
+
+# editeur par defaut
+export EDITOR=gedit 
+

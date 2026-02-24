@@ -1,0 +1,11 @@
+instMap,*switch2,*I1,*I1
+instMaster,*switch2,*I1,*SAR_switch_schematic
+instMap,*switch2,*I0,*I0
+instMaster,*switch2,*I0,*SAR_switch_schematic
+netMap,*switch2,*CMD-,*\CMD- 
+netMap,*switch2,*CMD+,*\CMD+ 
+netMap,*switch2,*S-,*\S- 
+netMap,*switch2,*vdd3!,*cds_globals.\vdd3! 
+netMap,*switch2,*gnd!,*cds_globals.\gnd! 
+netMap,*switch2,*vdd!,*cds_globals.\vdd! 
+cellMap,*switch2,*switch2,*SAR,*schematic

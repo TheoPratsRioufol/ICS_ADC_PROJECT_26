@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Feb  5 19:04:39 2026
+// Design library name: SAR
+// Design cell name: test_sar8
+// Design view name: config
+simulator lang=spectre binding=vlog  
+global 0 vdd3! vdd!

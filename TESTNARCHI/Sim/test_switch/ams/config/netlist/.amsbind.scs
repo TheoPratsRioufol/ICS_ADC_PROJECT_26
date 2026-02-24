@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+
+// Binding AMSD Control Block for config SAR.test_switch:config
+// Created On: Jan 28 11:18:13 2026
+// NOTE      : DO NOT change this system generated file.
+
+amsd {
+	config designtop="SAR.test_switch:schematic"
+
+	config cell="vcvs" view="analogtext"
+	config cell="isource" view="analogtext"
+	config cell="vsource" view="analogtext"
+
+ }

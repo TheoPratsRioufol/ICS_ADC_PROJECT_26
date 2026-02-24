@@ -1,0 +1,20 @@
+//Revision 17
+//NOTE
+// Default austriamicrosystems template for spectre
+//END_NOTE
+
+config test_switch;
+design SAR.test_switch:schematic;
+liblist SIGMADELTA;
+
+viewlist spectre, cmos_sch, schematic, veriloga, ahdl;
+stoplist spectre;
+
+
+cell SIGMADELTA.switch binding :schematic2;
+cell SIGMADELTA.switchIn binding :schematic2_comp2;
+
+cell SAR.switch binding :schematic_ideal;
+
+
+endconfig

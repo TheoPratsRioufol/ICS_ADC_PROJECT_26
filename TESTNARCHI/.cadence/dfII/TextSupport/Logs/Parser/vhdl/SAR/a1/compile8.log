@@ -1,0 +1,19 @@
+TOOL:	xmvhdl(64)	24.09-s011: Started on Feb 05, 2026 at 17:06:16 CET
+xmvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/a1/compile8.log
+    /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/a2/vhdl.vhd
+
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/a2/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_PART:A1 (architecture):
+	streams: 1, words: 672
+TOOL:	xmvhdl(64)	24.09-s011: Exiting on Feb 05, 2026 at 17:06:16 CET  (total: 00:00:00)

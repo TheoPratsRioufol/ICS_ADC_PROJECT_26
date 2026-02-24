@@ -1,0 +1,4 @@
+netMap,*test_switch,*gnd!,*cds_globals.\gnd! 
+netMap,*test_switch,*vdd!,*cds_globals.\vdd! 
+cellMap,*test_switch,*test_switch,*SAR,*schematic
+topMap,*test_switch

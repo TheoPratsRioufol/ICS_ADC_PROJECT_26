@@ -1,0 +1,25 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-ahdllibdir
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/ahdlSimDB
+-outdir
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in
+-outamsddir
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD
+-runmode
+-compile
+-makelib
+-cdslib
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
+-hdlvar
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/hdlrun.var
+-work
+worklib
+-64bit
+-amscommfile
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amscomm.list
+-amsspice-errfile
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amsspice_pre.log
+-dumpprim

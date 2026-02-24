@@ -1,0 +1,13 @@
+( ( net
+( "result<4>" "result_4" )
+( "vdd!" "vdd!" )
+( "gnd!" "0" )
+( "result<5>" "result_5" )
+( "result<0>" "result_0" )
+( "result<2>" "result_2" )
+( "result<1>" "result_1" )
+( "result<6>" "result_6" )
+( "result<7>" "result_7" )
+( "result<3>" "result_3" )
+ )
+ )

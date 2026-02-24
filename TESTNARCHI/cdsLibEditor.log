@@ -1,0 +1,16 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 04/25/2024 14:36 (csvcm36c-7) $
+\o Sub version:		sub-version  s364 
+\o Arguments:		-cdslib /home/ics15/ICS_ADC_PROJECT_26/TESTNARCHI/cds.lib -mpssession virtuoso1103043 -mpshost pantin -mpsversion 6.18 
+\o Working Directory:	pantin:/home/ics15/ICS_ADC_PROJECT_26/TESTNARCHI
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(2 81 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(959 332 500 400))
+\a nrResizeWindow(cdsLibEditor list(719 337 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a exit(0)

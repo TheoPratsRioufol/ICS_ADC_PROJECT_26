@@ -1,0 +1,68 @@
+TOOL:	xrun(64)	24.09-s011: Started on Feb 05, 2026 at 19:04:38 CET
+xrun
+	-f /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/mapi_run.args
+		-64bit
+		-compile
+		-NOCOPYRIGHT
+		-nostdout
+		-nowarn DLNOHV
+		-logfile /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/mapirun.log
+		-nowarn DLNOHV
+		-nowarn DLCLAP
+		-v93
+		-allowredefinition
+		-incdir /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+		-xmlibdirpath /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/
+		-cdslib /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/cds.lib
+		-amscompilefile "file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams lib:SAR cell:voltage_gene view:verilogams"
+		-smartlib
+		-makelib SAR
+		-view entity
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity/vhdl.vhd
+		-endlib
+		-makelib SAR
+		-view a1
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/a1/vhdl.vhd
+		-endlib
+		-amscompilefile "file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams lib:SAR cell:save_es view:verilogams"
+		-amscompilefile "file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams lib:SAR cell:switched_comparator view:verilogams"
+		-makelib SAR
+		-view entity
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/entity/vhdl.vhd
+		-endlib
+		-makelib SAR
+		-view a3
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/a3/vhdl.vhd
+		-endlib
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi//dummyMapi.vams
+		/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi//dummyMapi.vhms
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_GENE (entity):
+	streams: 4, words: 87
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/a1/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_GENE:A1 (architecture):
+	streams: 1, words: 209
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_PART (entity):
+	streams: 16, words: 943
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/a3/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_PART:A3 (architecture):
+	streams: 1, words: 745
+file: /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi//dummyMapi.vams
+file: /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams
+	module SAR.voltage_gene:verilogams
+		errors: 0, warnings: 0
+file: /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams
+	module SAR.save_es:verilogams
+		errors: 0, warnings: 0
+file: /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams
+	module SAR.switched_comparator:verilogams
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xrun(64)	24.09-s011: Exiting on Feb 05, 2026 at 19:04:39 CET  (total: 00:00:01)

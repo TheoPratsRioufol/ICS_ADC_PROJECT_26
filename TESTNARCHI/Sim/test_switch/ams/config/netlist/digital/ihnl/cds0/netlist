@@ -1,0 +1,15 @@
+// Library - SAR, Cell - test_switch, View - schematic
+// LAST TIME SAVED: Jan 28 10:49:27 2026
+// NETLIST TIME: Jan 28 11:18:07 2026
+`timescale 1ns / 1ps 
+
+`worklib SAR
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="SAR", dfII_cell="test_switch", dfII_view="schematic", worklib_name="SAR", view_name="schematic", last_save_time="Jan 28 10:49:27 2026" *)
+
+module test_switch ();
+
+
+endmodule

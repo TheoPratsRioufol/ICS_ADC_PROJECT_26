@@ -1,0 +1,17 @@
+cellMap,*test_sar8,*test_sar8,*null,*null
+topMap,*test_sar8
+netMap,*test_sar8,*result<7>,*result_7
+netMap,*test_sar8,*result<6>,*result_6
+netMap,*test_sar8,*result<5>,*result_5
+netMap,*test_sar8,*result<4>,*result_4
+netMap,*test_sar8,*result<3>,*result_3
+netMap,*test_sar8,*result<2>,*result_2
+netMap,*test_sar8,*result<1>,*result_1
+netMap,*test_sar8,*result<0>,*result_0
+netMap,*test_sar8,*vdd3!,*vdd3!
+netMap,*test_sar8,*gnd!,*0
+netMap,*test_sar8,*vdd!,*vdd!
+instMap,*test_sar8,*I19,*I19
+instMaster,*test_sar8,*I19,*SAR_sar8_schematic,*sar8
+instMap,*test_sar8,*V0,*V0
+instMaster,*test_sar8,*V0,*analogLib_vdc_spectre,*vsource

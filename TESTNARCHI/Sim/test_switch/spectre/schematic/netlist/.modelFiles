@@ -1,0 +1,8 @@
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/config.scs" section=default
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/param.scs" section=3s
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/bip.scs" section=tm
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/cap.scs" section=tm
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/dio.scs" section=tm
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/mos.scs" section=tm
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/photo.scs" section=tm
+include "/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/res.scs" section=tm

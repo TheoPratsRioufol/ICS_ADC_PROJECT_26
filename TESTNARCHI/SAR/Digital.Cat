@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+SAR/clock_distribution type="cell"
+SAR/clock_gene type="cell"
+SAR/digital_gene type="cell"
+SAR/digital_part type="cell"
+SAR/save_es type="cell"
+SAR/save_s type="cell"
+keepEmptyCategory type="unknown"

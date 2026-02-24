@@ -1,0 +1,17 @@
+// Library - SAR, Cell - test_sar8, View - schematic
+// LAST TIME SAVED: Feb  5 16:48:57 2026
+// NETLIST TIME: Feb  5 19:04:39 2026
+`timescale 1ns / 1ps 
+
+`worklib SAR
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="SAR", dfII_cell="test_sar8", dfII_view="schematic", worklib_name="SAR", view_name="schematic", last_save_time="Feb  5 16:48:57 2026" *)
+
+module test_sar8 ();
+
+// Buses in the design
+
+wire  [7:0]  result;
+

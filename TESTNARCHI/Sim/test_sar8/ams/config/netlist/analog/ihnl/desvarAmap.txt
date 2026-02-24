@@ -1,0 +1,6 @@
+desvar,*wp,*wp,*4.1*wn
+desvar,*Vcm,*Vcm,*Vref/2
+desvar,*Vref,*Vref,*3.3
+desvar,*wn,*wn,*9u
+desvar,*L,*L,*350n
+desvar,*C,*C,*25.6p

@@ -1,0 +1,12 @@
+CADENCE IHNL04120
+$model
+SAR/test_switch/schematic SAR/test_switch/schematic/schematic/SAR_test_switch_config/1 test_switch
+$endmodel
+$net
+gnd! cds_globals.\gnd! 
+vdd! cds_globals.\vdd! 
+$endnet
+$param
+wn cds_globals.wn
+wp cds_globals.wp
+$endparam

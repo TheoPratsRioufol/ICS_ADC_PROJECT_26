@@ -1,0 +1,21 @@
+( global ( resolution_type basic ) )
+
+( net test_switch.net6 test_switch.net6 analog electrical )
+
+( net test_switch.net04 test_switch.net04 analog electrical )
+
+( net test_switch.net3 test_switch.net3 analog electrical )
+
+( net test_switch.R test_switch.R analog electrical )
+
+( net cds_globals.\vdd!  cds_globals.\vdd!  analog electrical )
+
+( net cds_globals.\gnd!  cds_globals.\gnd!  analog electrical )
+
+(instance test_switch.V3 analog)
+(instance test_switch.V5 analog)
+(instance test_switch.V4 analog)
+(instance test_switch.V0 analog)
+(instance test_switch.E0 analog)
+(instance test_switch analog)
+(instance cds_globals analog)

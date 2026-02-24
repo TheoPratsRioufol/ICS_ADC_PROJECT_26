@@ -1,0 +1,10 @@
+
+// Library name: SAR
+// Cell name: test_switch
+// View name: schematic
+// Inherited view list: schematic
+V3 (net04 net6) isource dc=1u type=dc
+V5 (net6 0) vsource dc=1.65 type=dc
+V4 (vdd! 0) vsource dc=3.3 type=dc
+V0 (net3 0) vsource dc=3.3 type=dc
+E0 (R 0 net6 net04) vcvs gain=1000000

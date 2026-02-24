@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+// HDL file for Lib - SAR ,Cell - digital_gene, View - entity
+-makelib SAR 
+-specificunit digital_gene 
+${IC_INVOKE_DIR}/SAR/digital_gene/entity/vhdl.vhd
+// HDL file for Lib - SAR ,Cell - digital_gene, View - a1
+-makelib SAR -view a1
+-specificunit digital_gene:a1 
+${IC_INVOKE_DIR}/SAR/digital_gene/a1/vhdl.vhd
+
+-endlib 
+// HDL file for Lib - SAR ,Cell - digital_part, View - entity
+-makelib SAR 
+-specificunit digital_part 
+${IC_INVOKE_DIR}/SAR/digital_part/entity/vhdl.vhd
+// HDL file for Lib - SAR ,Cell - digital_part, View - a3
+-makelib SAR -view a3
+-specificunit digital_part:a3 
+${IC_INVOKE_DIR}/SAR/digital_part/a3/vhdl.vhd
+
+-endlib 
+// HDL file for Lib - SAR ,Cell - voltage_gene, View - verilogams
+-amscompilefile "file:${IC_INVOKE_DIR}/SAR/voltage_gene/verilogams/verilog.vams lib:SAR cell:voltage_gene view:verilogams"
+
+// HDL file for Lib - SAR ,Cell - save_es, View - verilogams
+-amscompilefile "file:${IC_INVOKE_DIR}/SAR/save_es/verilogams/verilog.vams lib:SAR cell:save_es view:verilogams"
+
+// HDL file for Lib - SAR ,Cell - switched_comparator, View - verilogams
+-amscompilefile "file:${IC_INVOKE_DIR}/SAR/switched_comparator/verilogams/verilog.vams lib:SAR cell:switched_comparator view:verilogams"
+

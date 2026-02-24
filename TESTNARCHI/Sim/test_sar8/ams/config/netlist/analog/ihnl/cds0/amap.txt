@@ -1,0 +1,16 @@
+cellMap,*switch,*switch,*SAR,*schematic
+netMap,*switch,*vdd3!,*vdd3!
+netMap,*switch,*gnd!,*0
+netMap,*switch,*vdd!,*vdd!
+instMap,*switch,*M0,*M0
+instMaster,*switch,*M0,*PRIMLIB_ne3_spectre,*ne3
+instMap,*switch,*M1,*M1
+instMaster,*switch,*M1,*PRIMLIB_pe3_spectre,*pe3
+netMap,*switch,*S+,*S\+
+netMap,*switch,*CMD-,*CMD\-
+netMap,*switch,*S-,*S\-
+netMap,*switch,*CMD+,*CMD\+
+portMap,*switch,*CMD+,*CMD\+
+portMap,*switch,*CMD-,*CMD\-
+portMap,*switch,*S+,*S\+
+portMap,*switch,*S-,*S\-
