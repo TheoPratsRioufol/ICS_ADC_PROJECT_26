@@ -1,0 +1,16 @@
+( ( defbus
+( "result" 7 0  "result" 7 0  )
+ )
+( net
+( "result<4>" "result[4]" )
+( "vdd!" "cds_globals.\\vdd! " )
+( "gnd!" "cds_globals.\\gnd! " )
+( "result<5>" "result[5]" )
+( "result<0>" "result[0]" )
+( "result<2>" "result[2]" )
+( "result<1>" "result[1]" )
+( "result<6>" "result[6]" )
+( "result<7>" "result[7]" )
+( "result<3>" "result[3]" )
+ )
+ )

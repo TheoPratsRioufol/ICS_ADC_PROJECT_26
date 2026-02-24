@@ -1,0 +1,12 @@
+define XMSIMRC	( /usr/local/cadence/xcelium/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /usr/local/cadence/xcelium/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT SAR.test_sar8:config
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP (  => SAR )
+DEFINE LIB_MAP ($LIB_MAP,  => SAR )
+DEFINE LIB_MAP ($LIB_MAP,  => SAR )
+DEFINE LIB_MAP ($LIB_MAP,  => SAR )
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT SAR.test_sar8:config

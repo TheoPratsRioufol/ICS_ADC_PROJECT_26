@@ -1,0 +1,2 @@
+desvar,*wn,*wn,*1u
+desvar,*wp,*wp,*3.8u

@@ -1,0 +1,43 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "test_sar8"
+  repList "spectre spice pspice verilog verilogams behavioral functional systemVerilog schematic veriloga vhdl vhdlams wreal"
+  stopList "spectre"
+  globalList "vdd3! gnd! vdd!"
+  hierDelim "."
+  globalHierPrefix "cds_globals."
+  prefixHierarchyWithCV "YES"
+  netlistDir "/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/digital"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+  slashCheck   "t"
+ )
+( defbus
+( "result" 7 0  "result" 7 0  )
+ )
+( net
+( "vdd!" "cds_globals.\\vdd! " )
+( "gnd!" "cds_globals.\\gnd! " )
+( "vdd3!" "cds_globals.\\vdd3! " )
+ )
+( model
+( "SAR/test_sar8/schematic" "test_sar8" )
+( "SAR/switch2/schematic" "switch2" )
+( "SAR/switch/schematic" "switch" )
+( "SAR/sar8/schematic" "sar8" )
+ )
+( "wn" "cds_globals.wn" )
+( "Vref" "cds_globals.Vref" )
+( "wp" "cds_globals.wp" )
+( "Vcm" "cds_globals.Vcm" )
+( "C" "cds_globals.C" )
+( "L" "cds_globals.L" )
+( "switch" "ihnl/cds0/map" )
+( "switch2" "ihnl/cds1/map" )
+( "sar8" "ihnl/cds2/map" )
+( "test_sar8" "ihnl/cds3/map" )
+ )

@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"I1n I0n" "switch"
+"CMD+v" ":1v"
+"CMD-v" ":2v"
+"S-v" ":3v"
+"S1v" ":4v"
+"S2v" ":5v"

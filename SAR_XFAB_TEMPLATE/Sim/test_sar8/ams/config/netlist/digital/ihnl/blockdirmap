@@ -1,0 +1,6 @@
+CADENCE IHNL04124
+
+SAR switch schematic nil schematic SAR test_sar8 config 0 cds0
+SAR switch2 schematic nil schematic SAR test_sar8 config 0 cds1
+SAR sar8 schematic nil schematic SAR test_sar8 config 0 cds2
+SAR test_sar8 schematic nil schematic SAR test_sar8 config 1 cds3

@@ -1,0 +1,21 @@
+xmvlog(64): 24.09-s011: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.09-s011: Started on Feb 24, 2026 at 17:24:43 CET
+xmvlog
+    -use5x
+    -CDS_IMPLICIT_TMPDIR ./.pcdb
+    -AMS
+    -work SAR
+    -view verilogams
+    -errorMax 50
+    -incdir /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+    -messages
+    -status
+    -nowarn DLNOHV
+    /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams
+
+file: /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams
+	module SAR.save_es:verilogams
+		errors: 0, warnings: 0
+xmvlog: Memory Usage - Current physical: 27.4M, Current virtual: 53.5M, Peak physical: 27.4M
+xmvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.0s, 100.0% cpu)
+TOOL:	xmvlog(64)	24.09-s011: Exiting on Feb 24, 2026 at 17:24:43 CET  (total: 00:00:00)

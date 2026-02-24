@@ -1,0 +1,14 @@
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/verilog/v2_1_0/D_CELLS_3V.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_HDLVT/v1_0/verilog/v1_0_0/D_CELLS_HDLVT.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_C1V8/v1_1/verilog/v1_1_0_1/IO_CELLS_C1V8.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_M3V/v2_0/verilog/v2_0_0/D_CELLS_M3V.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_HDSVT/v3_0/verilog/v3_0_0/D_CELLS_HDSVT.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_FC1V8/v1_1/verilog/v1_1_0_1/IO_CELLS_FC1V8.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_HDMV/v2_2/verilog/v2_2_0/D_CELLS_HDMV.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_FC3V/v1_2/verilog/v1_2_0/IO_CELLS_FC3V.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_F3V/v2_2/verilog/v2_2_0/IO_CELLS_F3V.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_HDLL/v3_0/verilog/v3_0_0/D_CELLS_HDLL.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_3V/v2_2/verilog/v2_2_0/IO_CELLS_3V.v 
+-v /usr/local/XFAB/xh018/diglibs/IO_CELLS_C3V/v1_2/verilog/v1_2_0/IO_CELLS_C3V.v 
+-v /usr/local/XFAB/xh018/diglibs/D_CELLS_HD/v5_0/verilog/v5_0_0/D_CELLS_HD.v 
++sdf_nocheck_celltype 

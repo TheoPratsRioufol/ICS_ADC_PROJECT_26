@@ -1,0 +1,26 @@
+    SA switch
+    V5 (Vcm 0) vsource dc=Vcm type=dc
+    V1 (Vref 0) vsource dc=3.3 type=dc
+    V3 (vdd3! 0) vsource dc=3.3 type=dc
+    C0 (net26 VA) capacitor c=C/16
+    C3 (net21 VA) capacitor c=C/4
+    C2 (net20 VA) capacitor c=C/2
+    C1 (net19 VA) capacitor c=C/8
+    C4 (net13 VA) capacitor c=C/32
+    C5 (net12 VA) capacitor c=C/64
+    C6 (net9 VA) capacitor c=C/128
+    C7 (net6 VA) capacitor c=C/128
+    C8 (net2 VA) capacitor c=C
+    I34 switch2
+    SB switch2
+    I35 switch2
+    I37 switch2
+    I36 switch2
+    I38 switch2
+    I39 switch2
+    I40 switch2
+    S0 switch2
+    I42 switch2
+    E0 (Vref2 0 Vref 0) vcvs gain=0.5
+ends sar8
+// End of subcircuit definition.

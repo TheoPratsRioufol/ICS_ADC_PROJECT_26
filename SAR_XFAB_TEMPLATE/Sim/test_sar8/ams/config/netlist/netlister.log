@@ -1,0 +1,97 @@
+Begin Netlisting Feb 24 17:24:43 2026
+INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the
+
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/digital/testfixture.verilog" file. To print the stimulus name mapped table,
+set 
+simVerilogPrintStimulusNameMappingTable = t either in CIW or the .simrc
+file 
+before invoking Verilog netlister.
+ 
+INFO (VLOGNET-62): Database internal net names will be printed for floating
+instance ports. To prevent 
+them from being printed, set
+simVerilogProcessNullPorts = t either in CIW or 
+the .simrc file.
+ 
+INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist
+Configuration list. 
+If you want to print only those cellviews that need to be
+re-netlisted in the 
+list, set simVerilogIncrementalNetlistConfigList = t either
+in CIW or the 
+.simrc file.
+ 
+INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to
+"z". To get inout 
+pins with initial state of "0", set
+hnlVerilogIOInitStimulusStr = "0" 
+either in CIW or the .simrc file.
+ 
+INFO (AMS-2150): Generating the 'changedVarsSummary' file in the 'netlist'
+directory. This file prints the values of the netlister control variables, which
+are different from their default values. To disable the file creation, type
+'envSetVal("ams.netlisterOpts" "print_control_vars" 'boolean nil )' in the
+'.cdsinit' file.
+
+INFO (VLOGNET-117): Re-netlisting the entire design.
+
+INFO (VLOGNET-118): Using connection by name (explicit connections) for all
+stopping and 
+non-stopping cells.
+ 
+WARNING (VLOGNET-110): The cell 'SAR/test_sar8/schematic' has no ports. Make
+sure that this was the intended 
+design.
+ 
+INFO (VLOGNET-126): ---------- Beginning netlist configuration information
+----------
+
+
+
+LIB NAME                    CELL NAME                   VIEW NAME           
+NOTE             
+---------                   ---------                   ---------           
+----             
+
+D_CELLS_3V                  IN_3VX4                     verilogams          
+*Stopping View*  
+PRIMLIB                     ne3                         spectre             
+*Stopping View*  
+PRIMLIB                     pe3                         spectre             
+*Stopping View*  
+analogLib                   vdc                         spectre             
+*Stopping View*  
+analogLib                   cap                         spectre             
+*Stopping View*  
+SAR                         digital_part                a3                  
+*Stopping View*  
+analogLib                   vcvs                        spectre             
+*Stopping View*  
+SAR                         switched_comparator         verilogams          
+*Stopping View*  
+D_CELLS_3V                  NA2_3VX1                    verilogams          
+*Stopping View*  
+SAR                         save_es                     verilogams          
+*Stopping View*  
+SAR                         digital_gene                a1                  
+*Stopping View*  
+SAR                         voltage_gene                verilogams          
+*Stopping View*  
+SAR                         test_sar8                   schematic               
+             
+SAR                         sar8                        schematic               
+             
+SAR                         switch2                     schematic               
+             
+SAR                         switch                      schematic               
+             
+
+---------- End of netlist configuration information   ----------
+WARNING (OSSHNL-159): The primitive, 'SAR/save_es/verilogams', has been updated
+since the last netlisting session
+in this current run directory. Therefore,
+re-netlisting all cell views where
+this primitive is instantiated.
+
+Running netlist assembly..
+End netlisting Feb 24 17:24:49 2026

@@ -1,0 +1,9 @@
+    M0 (S\+ CMD\+ S\- 0) ne3 w=wn/1 l=L  as=4.8e-07*(wn/1) \
+        ad=4.8e-07*(wn/1) ps=1*2*(4.8e-07+(wn/1)) pd=2*(4.8e-07+(wn/1)) \
+        nrs=2.7e-07/(wn/1) nrd=2.7e-07/(wn/1) m=(1)*(1) par1=(1)*(1) \
+        xf_subext=0
+    M1 (S\- CMD\- S\+ vdd!) pe3 w=wp/1 l=L as=4.8e-07*(wp/1) \
+        ad=4.8e-07*(wp/1) ps=1*2*(4.8e-07+(wp/1)) pd=2*(4.8e-07+(wp/1)) \
+        nrs=2.7e-07/(wp/1) nrd=2.7e-07/(wp/1) m=(1)*(1) par1=(1)*(1)
+ends switch
+// End of subcircuit definition.

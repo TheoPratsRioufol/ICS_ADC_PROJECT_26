@@ -1,0 +1,64 @@
+
+// Library name: SAR
+// Cell name: switch
+// View name: schematic
+// Inherited view list: schematic
+subckt switch
+    M0 (S\+ CMD\+ S\- 0) ne3 w=wn/1 l=L  as=4.8e-07*(wn/1) \
+        ad=4.8e-07*(wn/1) ps=1*2*(4.8e-07+(wn/1)) pd=2*(4.8e-07+(wn/1)) \
+        nrs=2.7e-07/(wn/1) nrd=2.7e-07/(wn/1) m=(1)*(1) par1=(1)*(1) \
+        xf_subext=0
+    M1 (S\- CMD\- S\+ vdd!) pe3 w=wp/1 l=L as=4.8e-07*(wp/1) \
+        ad=4.8e-07*(wp/1) ps=1*2*(4.8e-07+(wp/1)) pd=2*(4.8e-07+(wp/1)) \
+        nrs=2.7e-07/(wp/1) nrd=2.7e-07/(wp/1) m=(1)*(1) par1=(1)*(1)
+ends switch
+// End of subcircuit definition.
+
+// Library name: SAR
+// Cell name: switch2
+// View name: schematic
+// Inherited view list: schematic
+subckt switch2
+    I1 switch
+    I0 switch
+ends switch2
+// End of subcircuit definition.
+
+// Library name: SAR
+// Cell name: sar8
+// View name: schematic
+// Inherited view list: schematic
+subckt sar8
+    SA switch
+    V5 (Vcm 0) vsource dc=Vcm type=dc
+    V1 (Vref 0) vsource dc=3.3 type=dc
+    V3 (vdd3! 0) vsource dc=3.3 type=dc
+    C0 (net26 VA) capacitor c=C/16
+    C3 (net21 VA) capacitor c=C/4
+    C2 (net20 VA) capacitor c=C/2
+    C1 (net19 VA) capacitor c=C/8
+    C4 (net13 VA) capacitor c=C/32
+    C5 (net12 VA) capacitor c=C/64
+    C6 (net9 VA) capacitor c=C/128
+    C7 (net6 VA) capacitor c=C/128
+    C8 (net2 VA) capacitor c=C
+    I34 switch2
+    SB switch2
+    I35 switch2
+    I37 switch2
+    I36 switch2
+    I38 switch2
+    I39 switch2
+    I40 switch2
+    S0 switch2
+    I42 switch2
+    E0 (Vref2 0 Vref 0) vcvs gain=0.5
+ends sar8
+// End of subcircuit definition.
+
+// Library name: SAR
+// Cell name: test_sar8
+// View name: schematic
+// Inherited view list: schematic
+I19 sar8
+V0 (vdd! 0) vsource dc=3.3 type=dc

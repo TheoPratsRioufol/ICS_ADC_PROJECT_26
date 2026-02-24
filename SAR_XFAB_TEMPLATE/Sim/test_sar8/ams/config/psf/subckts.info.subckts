@@ -1,0 +1,1864 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "23.1.0.802.isr17"
+"date" "5:24:59 PM, Tue Feb 24, 2026"
+"design" "//"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"subckt" STRUCT(
+"subckt_file" STRING *
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"pe3lni_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lni_5.scs 25"
+""
+""
+""
+)
+"rdn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdn.scs 24"
+""
+""
+""
+)
+"csandwt3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csandwt3.scs 23"
+""
+""
+""
+)
+"cif3a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cif3a.scs 20"
+""
+""
+""
+)
+"dapda" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapda.scs 26"
+""
+""
+""
+)
+"nmmd_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmmd_bjt.scs 24"
+""
+""
+""
+)
+"qnl_pc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pc.scs 21"
+""
+""
+""
+)
+"qpv_pd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pd.scs 21"
+""
+""
+""
+)
+"dnp20" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnp20.scs 29"
+""
+""
+""
+)
+"dapb0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapb0.scs 20"
+""
+""
+""
+)
+"pma_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pma_bjt.scs 23"
+""
+""
+""
+)
+"qnvc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvc.scs 29"
+""
+""
+""
+)
+"dphocfp_cat" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphocfp_cat.scs 24"
+""
+""
+""
+)
+"nesvt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nesvt.scs 25"
+""
+""
+""
+)
+"pe" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe.scs 22"
+""
+""
+""
+)
+"csft5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft5.scs 20"
+""
+""
+""
+)
+"dn3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dn3.scs 22"
+""
+""
+""
+)
+"nd3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nd3.scs 24"
+""
+""
+""
+)
+"ddnwa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/ddnwa.scs 22"
+""
+""
+""
+)
+"rpp1k1_3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1k1_3.scs 24"
+""
+""
+""
+)
+"pmb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmb.scs 23"
+""
+""
+""
+)
+"dphod" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod.scs 29"
+""
+""
+""
+)
+"dwhn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dwhn.scs 22"
+""
+""
+""
+)
+"dspada_cat" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspada_cat.scs 22"
+""
+""
+""
+)
+"qnl_pf" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pf.scs 21"
+""
+""
+""
+)
+"qpl_pc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pc.scs 21"
+""
+""
+""
+)
+"nmma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmma.scs 21"
+""
+""
+""
+)
+"dipdnwmv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dipdnwmv.scs 22"
+""
+""
+""
+)
+"qnl_pe" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pe.scs 21"
+""
+""
+""
+)
+"qnvba" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvba.scs 29"
+""
+""
+""
+)
+"D_CELLS_3V__NA2_3VX1__verilogams" "subckt" (
+"/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/NA2_3VX1/verilogams/verilog.vams 12"
+""
+""
+"test_sar8.I19.I79 test_sar8.I19.I78"
+)
+"phv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/phv.scs 24"
+""
+""
+""
+)
+"nd3i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nd3i.scs 24"
+""
+""
+""
+)
+"nedi_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nedi_bjt.scs 31"
+""
+""
+""
+)
+"phhv_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/phhv_bjt.scs 24"
+""
+""
+""
+)
+"s_res" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/s_res.scs 25"
+""
+""
+""
+)
+"nesvti" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nesvti.scs 25"
+""
+""
+""
+)
+"rpp1s_3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1s_3.scs 24"
+""
+""
+""
+)
+"dsb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dsb.scs 26"
+""
+""
+""
+)
+"qpv_pe" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pe.scs 21"
+""
+""
+""
+)
+"nhhv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhhv.scs 24"
+""
+""
+""
+)
+"qpva3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpva3.scs 21"
+""
+""
+""
+)
+"cmmh4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmmh4.scs 22"
+""
+""
+""
+)
+"dapb0_jun" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapb0_jun.scs 22"
+""
+""
+""
+)
+"nedia" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nedia.scs 32"
+""
+""
+""
+)
+"nhvd_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhvd_bjt.scs 25"
+""
+""
+""
+)
+"nelna" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nelna.scs 25"
+""
+""
+""
+)
+"dpwhn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpwhn.scs 22"
+""
+""
+""
+)
+"pei_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pei_5.scs 33"
+""
+""
+""
+)
+"csf3p" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf3p.scs 20"
+""
+""
+""
+)
+"ne3lna" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3lna.scs 25"
+""
+""
+""
+)
+"rdp_esd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdp_esd.scs 24"
+""
+""
+""
+)
+"pe3lni" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lni.scs 25"
+""
+""
+""
+)
+"qnl_pa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pa.scs 21"
+""
+""
+""
+)
+"cmm3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmm3.scs 22"
+""
+""
+""
+)
+"dpdwhn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpdwhn.scs 22"
+""
+""
+""
+)
+"qpvb3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvb3.scs 21"
+""
+""
+""
+)
+"nesvti_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nesvti_6.scs 25"
+""
+""
+""
+)
+"cdmmh4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cdmmh4.scs 22"
+""
+""
+""
+)
+"nesvti_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nesvti_m_6.scs 25"
+""
+""
+""
+)
+"qpvascr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvascr.scs 26"
+""
+""
+""
+)
+"dphoa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphoa.scs 21"
+""
+""
+""
+)
+"jf_nmma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/jf_nmma.scs 16"
+""
+""
+""
+)
+"qpl_pe" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pe.scs 21"
+""
+""
+""
+)
+"dspb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspb.scs 20"
+""
+""
+""
+)
+"pe3i_a_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3i_a_5.scs 33"
+""
+""
+""
+)
+"dphoc0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphoc0.scs 28"
+""
+""
+""
+)
+"dscidnwmv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dscidnwmv.scs 22"
+""
+""
+""
+)
+"ne3lnai" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3lnai.scs 25"
+""
+""
+""
+)
+"nei_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nei_6.scs 34"
+""
+""
+""
+)
+"dpdddnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpdddnw.scs 22"
+""
+""
+""
+)
+"peli_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/peli_m_5.scs 33"
+""
+""
+""
+)
+"qpvc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvc.scs 21"
+""
+""
+""
+)
+"ne3lnai_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3lnai_6.scs 25"
+""
+""
+""
+)
+"nhv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhv.scs 24"
+""
+""
+""
+)
+"neli_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/neli_m_6.scs 34"
+""
+""
+""
+)
+"ped" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ped.scs 31"
+""
+""
+""
+)
+"mosvc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvc.scs 22"
+""
+""
+""
+)
+"dphob" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphob.scs 21"
+""
+""
+""
+)
+"nd3i_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nd3i_6.scs 24"
+""
+""
+""
+)
+"ped2" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ped2.scs 31"
+""
+""
+""
+)
+"pe3lna_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lna_5.scs 25"
+""
+""
+""
+)
+"pe3lnai_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lnai_5.scs 25"
+""
+""
+""
+)
+"nedia_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nedia_bjt.scs 32"
+""
+""
+""
+)
+"dn3dpl" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dn3dpl.scs 22"
+""
+""
+""
+)
+"pesvt_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pesvt_5.scs 25"
+""
+""
+""
+)
+"csf2p" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf2p.scs 20"
+""
+""
+""
+)
+"dapb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapb.scs 20"
+""
+""
+""
+)
+"ne" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne.scs 22"
+""
+""
+""
+)
+"ne3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3.scs 22"
+"psl wcd_au0 ad nrs nrsl xf_subext as par1 pd w adl ps nrdl l wcd_avt asl nrd pdl"
+"d g s b"
+"test_sar8.I19.SA.M0 test_sar8.I19.I34.I1.M0 test_sar8.I19.I34.I0.M0 test_sar8.I19.SB.I1.M0 test_sar8.I19.SB.I0.M0 test_sar8.I19.I35.I1.M0 test_sar8.I19.I35.I0.M0 test_sar8.I19.I37.I1.M0 test_sar8.I19.I37.I0.M0 test_sar8.I19.I36.I1.M0 test_sar8.I19.I36.I0.M0 test_sar8.I19.I38.I1.M0 test_sar8.I19.I38.I0.M0 test_sar8.I19.I39.I1.M0 test_sar8.I19.I39.I0.M0 test_sar8.I19.I40.I1.M0 test_sar8.I19.I40.I0.M0 test_sar8.I19.S0.I1.M0 test_sar8.I19.S0.I0.M0 test_sar8.I19.I42.I1.M0 test_sar8.I19.I42.I0.M0"
+)
+"pe_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe_5.scs 33"
+""
+""
+""
+)
+"p_cap" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/p_cap.scs 20"
+""
+""
+""
+)
+"pe3lnai_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lnai_m_5.scs 25"
+""
+""
+""
+)
+"nelnai" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nelnai.scs 25"
+""
+""
+""
+)
+"dphod_an1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod_an1.scs 24"
+""
+""
+""
+)
+"nel" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nel.scs 22"
+""
+""
+""
+)
+"ped2_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ped2_bjt.scs 31"
+""
+""
+""
+)
+"cmm6t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmm6t.scs 22"
+""
+""
+""
+)
+"SAR__switch__schematic__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/netlist.vams 31"
+""
+"S+ S- CMD+ CMD-"
+"test_sar8.I19.SA test_sar8.I19.I34.I1 test_sar8.I19.I34.I0 test_sar8.I19.SB.I1 test_sar8.I19.SB.I0 test_sar8.I19.I35.I1 test_sar8.I19.I35.I0 test_sar8.I19.I37.I1 test_sar8.I19.I37.I0 test_sar8.I19.I36.I1 test_sar8.I19.I36.I0 test_sar8.I19.I38.I1 test_sar8.I19.I38.I0 test_sar8.I19.I39.I1 test_sar8.I19.I39.I0 test_sar8.I19.I40.I1 test_sar8.I19.I40.I0 test_sar8.I19.S0.I1 test_sar8.I19.S0.I0 test_sar8.I19.I42.I1 test_sar8.I19.I42.I0"
+)
+"pmmc_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmmc_bjt.scs 24"
+""
+""
+""
+)
+"dapda0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapda0.scs 26"
+""
+""
+""
+)
+"rnp1h" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnp1h.scs 24"
+""
+""
+""
+)
+"pel" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pel.scs 22"
+""
+""
+""
+)
+"dphod0_an1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod0_an1.scs 24"
+""
+""
+""
+)
+"dnn3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnn3.scs 22"
+""
+""
+""
+)
+"neli" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/neli.scs 22"
+""
+""
+""
+)
+"rm3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rm3.scs 25"
+""
+""
+""
+)
+"rnp1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnp1.scs 24"
+""
+""
+""
+)
+"cif4a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cif4a.scs 20"
+""
+""
+""
+)
+"dipdnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dipdnw.scs 22"
+""
+""
+""
+)
+"dapda_cat" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapda_cat.scs 22"
+""
+""
+""
+)
+"pfuse" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/pfuse.scs 23"
+""
+""
+""
+)
+"nelnai_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nelnai_6.scs 25"
+""
+""
+""
+)
+"pe3i_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3i_m_5.scs 33"
+""
+""
+""
+)
+"pei" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pei.scs 22"
+""
+""
+""
+)
+"dpdd_scr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpdd_scr.scs 23"
+""
+""
+""
+)
+"cdmmh4t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cdmmh4t.scs 22"
+""
+""
+""
+)
+"dnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnw.scs 22"
+""
+""
+""
+)
+"dphoc0_cat" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphoc0_cat.scs 24"
+""
+""
+""
+)
+"qpvhbscr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvhbscr.scs 26"
+""
+""
+""
+)
+"rdn_esd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdn_esd.scs 24"
+""
+""
+""
+)
+"ne3i_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3i_6.scs 34"
+""
+""
+""
+)
+"SAR__save_es__verilogams__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams 7"
+"print termcurs"
+"inp"
+"test_sar8.I18"
+)
+"ne3i_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3i_m_6.scs 34"
+""
+""
+""
+)
+"neli_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/neli_6.scs 34"
+""
+""
+""
+)
+"pe3ln" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3ln.scs 25"
+""
+""
+""
+)
+"rpp1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1.scs 24"
+""
+""
+""
+)
+"csandwt4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csandwt4.scs 23"
+""
+""
+""
+)
+"ne3i_a_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3i_a_6.scs 34"
+""
+""
+""
+)
+"csft6a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft6a.scs 20"
+""
+""
+""
+)
+"rm2" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rm2.scs 25"
+""
+""
+""
+)
+"rdp3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdp3.scs 24"
+""
+""
+""
+)
+"cpod" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cpod.scs 22"
+""
+""
+""
+)
+"ctmmh5t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/ctmmh5t.scs 22"
+""
+""
+""
+)
+"cpod_i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cpod_i.scs 22"
+""
+""
+""
+)
+"dnhpw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnhpw.scs 22"
+""
+""
+""
+)
+"ddpldnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/ddpldnw.scs 22"
+""
+""
+""
+)
+"rnp1h_3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnp1h_3.scs 24"
+""
+""
+""
+)
+"rnw3_scr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnw3_scr.scs 24"
+""
+""
+""
+)
+"csf4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf4.scs 20"
+""
+""
+""
+)
+"dhnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dhnw.scs 22"
+""
+""
+""
+)
+"tag_25v" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/tag_25v.scs 20"
+""
+""
+""
+)
+"cmm5t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmm5t.scs 22"
+""
+""
+""
+)
+"nn3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nn3.scs 25"
+""
+""
+""
+)
+"cdmm4t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cdmm4t.scs 22"
+""
+""
+""
+)
+"cmmh3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmmh3.scs 22"
+""
+""
+""
+)
+"qnvb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvb.scs 29"
+""
+""
+""
+)
+"jf_pmma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/jf_pmma.scs 16"
+""
+""
+""
+)
+"SAR__voltage_gene__verilogams__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams 7"
+"pas termcurs"
+"vout_p vout_n"
+"test_sar8.I17"
+)
+"qnvcb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvcb.scs 29"
+""
+""
+""
+)
+"dpdnwmv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpdnwmv.scs 22"
+""
+""
+""
+)
+"ne3i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3i.scs 22"
+""
+""
+""
+)
+"rm4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rm4.scs 25"
+""
+""
+""
+)
+"nei_a_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nei_a_6.scs 34"
+""
+""
+""
+)
+"pe3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3.scs 22"
+"psl wcd_au0 ad nrs nrsl xf_subext as par1 pd w adl ps nrdl l wcd_avt asl nrd pdl"
+"d g s b"
+"test_sar8.I19.SA.M1 test_sar8.I19.I34.I1.M1 test_sar8.I19.I34.I0.M1 test_sar8.I19.SB.I1.M1 test_sar8.I19.SB.I0.M1 test_sar8.I19.I35.I1.M1 test_sar8.I19.I35.I0.M1 test_sar8.I19.I37.I1.M1 test_sar8.I19.I37.I0.M1 test_sar8.I19.I36.I1.M1 test_sar8.I19.I36.I0.M1 test_sar8.I19.I38.I1.M1 test_sar8.I19.I38.I0.M1 test_sar8.I19.I39.I1.M1 test_sar8.I19.I39.I0.M1 test_sar8.I19.I40.I1.M1 test_sar8.I19.I40.I0.M1 test_sar8.I19.S0.I1.M1 test_sar8.I19.S0.I0.M1 test_sar8.I19.I42.I1.M1 test_sar8.I19.I42.I0.M1"
+)
+"dphod0_an2" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod0_an2.scs 24"
+""
+""
+""
+)
+"cdmm4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cdmm4.scs 22"
+""
+""
+""
+)
+"dphoc_cat" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphoc_cat.scs 23"
+""
+""
+""
+)
+"dpdnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpdnw.scs 22"
+""
+""
+""
+)
+"cmmh5t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmmh5t.scs 22"
+""
+""
+""
+)
+"qpv_pb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pb.scs 21"
+""
+""
+""
+)
+"dapb_jun" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapb_jun.scs 22"
+""
+""
+""
+)
+"dphnwa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dphnwa.scs 22"
+""
+""
+""
+)
+"SAR__test_sar8__schematic__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/netlist.vams 144"
+""
+""
+"test_sar8"
+)
+"rm1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rm1.scs 25"
+""
+""
+""
+)
+"peli_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/peli_5.scs 33"
+""
+""
+""
+)
+"nmma_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmma_bjt.scs 21"
+""
+""
+""
+)
+"mosvci_m" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvci_m.scs 27"
+""
+""
+""
+)
+"csf3a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf3a.scs 20"
+""
+""
+""
+)
+"pesvt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pesvt.scs 25"
+""
+""
+""
+)
+"qpv_pa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pa.scs 21"
+""
+""
+""
+)
+"pe3lnai" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lnai.scs 25"
+""
+""
+""
+)
+"phv_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/phv_bjt.scs 24"
+""
+""
+""
+)
+"cmmh6t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmmh6t.scs 22"
+""
+""
+""
+)
+"nma_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nma_bjt.scs 23"
+""
+""
+""
+)
+"rdp_io" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdp_io.scs 24"
+""
+""
+""
+)
+"dphodfp" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphodfp.scs 30"
+""
+""
+""
+)
+"dspada" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspada.scs 26"
+""
+""
+""
+)
+"dspb0_jun" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspb0_jun.scs 22"
+""
+""
+""
+)
+"worklib__L2E_2_inhconn_gnd__vams__0x10000001" "subckt" (
+"/usr/local/XFAB/x_all/diglibs/xfab_connectLib/v1_0/cadence_IC61/v1_0_1/xfab_connectLib/L2E_2_inhconn_gnd.vams 55"
+"vthi tr ttol_t rhi rx vtlo rlo tf vx vlo rz tdelay termcurs vhi"
+"Aout"
+"test_sar8.I19.Sm[8]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[7]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[6]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[5]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[4]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[3]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[2]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[1]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sm[0]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[8]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[7]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[6]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[5]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[4]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[3]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[2]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[1]__L2E_2_inhconn_gnd__logic test_sar8.I19.Sp[0]__L2E_2_inhconn_gnd__logic test_sar8.I19.SAm__L2E_2_inhconn_gnd__logic test_sar8.I19.SAp__L2E_2_inhconn_gnd__logic test_sar8.I19.SBm__L2E_2_inhconn_gnd__logic test_sar8.I19.SBp__L2E_2_inhconn_gnd__logic"
+)
+"qpvc3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvc3.scs 21"
+""
+""
+""
+)
+"dp3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dp3.scs 22"
+""
+""
+""
+)
+"dpp20" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpp20.scs 30"
+""
+""
+""
+)
+"mosvc3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvc3.scs 22"
+""
+""
+""
+)
+"csft5a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft5a.scs 20"
+""
+""
+""
+)
+"pesvti_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pesvti_5.scs 25"
+""
+""
+""
+)
+"qpv_pc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pc.scs 21"
+""
+""
+""
+)
+"rmtp" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rmtp.scs 25"
+""
+""
+""
+)
+"nelnai_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nelnai_m_6.scs 25"
+""
+""
+""
+)
+"nei" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nei.scs 22"
+""
+""
+""
+)
+"peli" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/peli.scs 22"
+""
+""
+""
+)
+"dspbfep" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspbfep.scs 20"
+""
+""
+""
+)
+"csf5a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf5a.scs 20"
+""
+""
+""
+)
+"dphodfp_an1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphodfp_an1.scs 24"
+""
+""
+""
+)
+"nma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nma.scs 23"
+""
+""
+""
+)
+"pe3lni_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lni_m_5.scs 25"
+""
+""
+""
+)
+"cif5a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cif5a.scs 20"
+""
+""
+""
+)
+"ctmmh5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/ctmmh5.scs 22"
+""
+""
+""
+)
+"dsba" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dsba.scs 20"
+""
+""
+""
+)
+"pe3i_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3i_5.scs 33"
+""
+""
+""
+)
+"cift4a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cift4a.scs 20"
+""
+""
+""
+)
+"dnhpwa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnhpwa.scs 22"
+""
+""
+""
+)
+"mosvc3i_m" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvc3i_m.scs 27"
+""
+""
+""
+)
+"cift5a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cift5a.scs 20"
+""
+""
+""
+)
+"cpodhv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cpodhv.scs 22"
+""
+""
+""
+)
+"dphoc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphoc.scs 26"
+""
+""
+""
+)
+"rnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnw.scs 24"
+""
+""
+""
+)
+"cpodhv_i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cpodhv_i.scs 22"
+""
+""
+""
+)
+"dphocfp" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphocfp.scs 28"
+""
+""
+""
+)
+"SAR__switched_comparator__verilogams__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams 7"
+"termcurs"
+"gnda vdda vinp vinm"
+"test_sar8.I19.I63"
+)
+"ddnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/ddnw.scs 22"
+""
+""
+""
+)
+"pma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pma.scs 23"
+""
+""
+""
+)
+"cift6a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cift6a.scs 20"
+""
+""
+""
+)
+"csf5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf5.scs 20"
+""
+""
+""
+)
+"D_CELLS_3V__IN_3VX4__verilogams" "subckt" (
+"/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/IN_3VX4/verilogams/verilog.vams 12"
+""
+""
+"test_sar8.I19.I77"
+)
+"cmmh4t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmmh4t.scs 22"
+""
+""
+""
+)
+"dhpw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dhpw.scs 22"
+""
+""
+""
+)
+"dphod_an2" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod_an2.scs 24"
+""
+""
+""
+)
+"nmc_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmc_bjt.scs 24"
+""
+""
+""
+)
+"rmtpl" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rmtpl.scs 25"
+""
+""
+""
+)
+"nmmc_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmmc_bjt.scs 24"
+""
+""
+""
+)
+"qnl_pd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pd.scs 21"
+""
+""
+""
+)
+"qpl_pb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pb.scs 21"
+""
+""
+""
+)
+"SAR__sar8__schematic__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/netlist.vams 69"
+""
+"result Analog_in clock reset start"
+"test_sar8.I19"
+)
+"qnvbb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvbb.scs 29"
+""
+""
+""
+)
+"ped_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ped_bjt.scs 31"
+""
+""
+""
+)
+"nhhvd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhhvd.scs 25"
+""
+""
+""
+)
+"nmmc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmmc.scs 24"
+""
+""
+""
+)
+"rdp" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdp.scs 24"
+""
+""
+""
+)
+"nei_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nei_m_6.scs 34"
+""
+""
+""
+)
+"rnp1_3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnp1_3.scs 24"
+""
+""
+""
+)
+"dndf" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dndf.scs 22"
+""
+""
+""
+)
+"pmc_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmc_bjt.scs 24"
+""
+""
+""
+)
+"rpp1s" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1s.scs 24"
+""
+""
+""
+)
+"rpp1k1" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1k1.scs 24"
+""
+""
+""
+)
+"phhv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/phhv.scs 24"
+""
+""
+""
+)
+"nhhv_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhhv_bjt.scs 24"
+""
+""
+""
+)
+"nhvd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhvd.scs 25"
+""
+""
+""
+)
+"dn3sci" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dn3sci.scs 22"
+""
+""
+""
+)
+"mosvc3i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvc3i.scs 27"
+""
+""
+""
+)
+"ctmm5t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/ctmm5t.scs 22"
+""
+""
+""
+)
+"dapb_trig" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dapb_trig.scs 22"
+""
+""
+""
+)
+"pe3i" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3i.scs 22"
+""
+""
+""
+)
+"nhhvd_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhhvd_bjt.scs 25"
+""
+""
+""
+)
+"dpol" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpol.scs 20"
+""
+""
+""
+)
+"nedi" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nedi.scs 31"
+""
+""
+""
+)
+"qpva" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpva.scs 21"
+""
+""
+""
+)
+"dspb0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspb0.scs 20"
+""
+""
+""
+)
+"qpl_pd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pd.scs 21"
+""
+""
+""
+)
+"qpvhscr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvhscr.scs 26"
+""
+""
+""
+)
+"nmmd" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmmd.scs 24"
+""
+""
+""
+)
+"qnl_pb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnl_pb.scs 21"
+""
+""
+""
+)
+"rdn3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdn3.scs 24"
+""
+""
+""
+)
+"dphnw" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dphnw.scs 22"
+""
+""
+""
+)
+"pei_a_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pei_a_5.scs 33"
+""
+""
+""
+)
+"csandwt5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csandwt5.scs 23"
+""
+""
+""
+)
+"cmm4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmm4.scs 22"
+""
+""
+""
+)
+"SAR__switch2__schematic__0x10000001" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/netlist.vams 52"
+""
+"S- S1 S2 CMD+ CMD-"
+"test_sar8.I19.I34 test_sar8.I19.SB test_sar8.I19.I35 test_sar8.I19.I37 test_sar8.I19.I36 test_sar8.I19.I38 test_sar8.I19.I39 test_sar8.I19.I40 test_sar8.I19.S0 test_sar8.I19.I42"
+)
+"nmc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nmc.scs 24"
+""
+""
+""
+)
+"csft4a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft4a.scs 20"
+""
+""
+""
+)
+"csft6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft6.scs 20"
+""
+""
+""
+)
+"dnpdd_scr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnpdd_scr.scs 23"
+""
+""
+""
+)
+"qpl_pa" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pa.scs 21"
+""
+""
+""
+)
+"qpvb" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpvb.scs 21"
+""
+""
+""
+)
+"ddnwmv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/ddnwmv.scs 22"
+""
+""
+""
+)
+"rdn3s" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdn3s.scs 26"
+""
+""
+""
+)
+"tag_60v" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/tag_60v.scs 20"
+""
+""
+""
+)
+"csf3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf3.scs 20"
+""
+""
+""
+)
+"pesvti_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pesvti_m_5.scs 25"
+""
+""
+""
+)
+"qpv_pf" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpv_pf.scs 21"
+""
+""
+""
+)
+"pesvti" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pesvti.scs 25"
+""
+""
+""
+)
+"pei_m_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pei_m_5.scs 33"
+""
+""
+""
+)
+"rnw3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnw3.scs 24"
+""
+""
+""
+)
+"rpp1_3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rpp1_3.scs 24"
+""
+""
+""
+)
+"nd3i_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nd3i_m_6.scs 24"
+""
+""
+""
+)
+"pe3lna" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3lna.scs 25"
+""
+""
+""
+)
+"rnw_scr" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rnw_scr.scs 24"
+""
+""
+""
+)
+"pmma" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmma.scs 21"
+""
+""
+""
+)
+"dphod0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphod0.scs 30"
+""
+""
+""
+)
+"cds_globals" "subckt" (
+"/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/cds_globals.vams 12"
+""
+""
+"cds_globals"
+)
+"cmm4t" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/cmm4t.scs 22"
+""
+""
+""
+)
+"dpndf" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dpndf.scs 22"
+""
+""
+""
+)
+"pmc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmc.scs 24"
+""
+""
+""
+)
+"nhv_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/nhv_bjt.scs 24"
+""
+""
+""
+)
+"csft4" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csft4.scs 20"
+""
+""
+""
+)
+"ctmm5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/ctmm5.scs 22"
+""
+""
+""
+)
+"qpl_pf" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qpl_pf.scs 21"
+""
+""
+""
+)
+"rdnwmv" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rdnwmv.scs 24"
+""
+""
+""
+)
+"dphodfp_an2" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dphodfp_an2.scs 24"
+""
+""
+""
+)
+"pmma_bjt" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmma_bjt.scs 21"
+""
+""
+""
+)
+"mosvci" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/mosvci.scs 27"
+""
+""
+""
+)
+"qnva" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnva.scs 27"
+""
+""
+""
+)
+"dbn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dbn.scs 22"
+""
+""
+""
+)
+"dp" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dp.scs 22"
+""
+""
+""
+)
+"pe3_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3_5.scs 33"
+""
+""
+""
+)
+"csf4a" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/cap/csf4a.scs 20"
+""
+""
+""
+)
+"ne3lnai_m_6" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/ne3lnai_m_6.scs 25"
+""
+""
+""
+)
+"qnvca" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/bip/qnvca.scs 29"
+""
+""
+""
+)
+"dspb_jun" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspb_jun.scs 22"
+""
+""
+""
+)
+"pel_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pel_5.scs 33"
+""
+""
+""
+)
+"dspb_trig" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspb_trig.scs 22"
+""
+""
+""
+)
+"pe3ln_5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pe3ln_5.scs 25"
+""
+""
+""
+)
+"pmmc" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/mos/pmmc.scs 24"
+""
+""
+""
+)
+"dnw3" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dnw3.scs 22"
+""
+""
+""
+)
+"rm5" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/res/rm5.scs 25"
+""
+""
+""
+)
+"dn" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/dio/dn.scs 22"
+""
+""
+""
+)
+"dspada0" "subckt" (
+"/usr/local/XFAB/xh018/cadence/v10_1/spectre/v10_1_1/lpmos/./models/photo/dspada0.scs 26"
+""
+""
+""
+)
+END

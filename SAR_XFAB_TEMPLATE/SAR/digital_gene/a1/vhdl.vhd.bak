@@ -1,0 +1,5 @@
+architecture a1 of digital_part is
+
+begin
+
+end architecture ; 

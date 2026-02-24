@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"SAR\" \"test_switch\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Feb  5 14:15:25 2026"
+"title" ""
+"analysisList" "()"
+END

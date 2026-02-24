@@ -1,0 +1,5 @@
+
+// Library name: SAR
+// Cell name: switch
+// View name: schematic
+subckt switch CMD\+ CMD\- S\+ S\-

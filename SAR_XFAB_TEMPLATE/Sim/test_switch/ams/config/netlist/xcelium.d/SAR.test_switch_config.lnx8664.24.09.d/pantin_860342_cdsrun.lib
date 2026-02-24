@@ -1,0 +1,5 @@
+SOFTINCLUDE /usr/local/cadence/xcelium/tools/inca/files/IEEE_vhdlams/cds.lib
+include ../../cds.lib
+define SAR ../SAR
+define worklib ../worklib
+define vhdlspice_skeletons ../vhdlspice_skeletons

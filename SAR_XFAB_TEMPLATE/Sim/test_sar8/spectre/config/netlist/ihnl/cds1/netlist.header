@@ -1,0 +1,7 @@
+
+// Library name: SAR
+// Cell name: switch2
+// View name: schematic
+// Inherited view list: spectre spice pspice verilog verilogams behavioral
+// functional systemVerilog schematic veriloga vhdl vhdlams wreal
+subckt switch2 CMD\+ CMD\- S\- S1 S2

@@ -1,0 +1,31 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-MODELINCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-ALLOWREDEFINITION
+-UPDATE
+-CDSLIB
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/SAR.test_sar8_config.lnx8664.24.09.d/hdlrun.var
+-amscommfile
+./xcelium.d/AMSD/ams_spice_in/amscomm.list
+-amsossirunbind
+./xcelium.d/AMSD/ams_spice_in/amsossbinding.list
+-work
+SAR
+-messages
+-SPECIFICUNIT
+digital_part:a3
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_part/a3/vhdl.vhd

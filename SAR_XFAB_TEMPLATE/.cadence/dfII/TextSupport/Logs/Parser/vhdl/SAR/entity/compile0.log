@@ -1,0 +1,19 @@
+TOOL:	ncvhdl(64)	15.20-s054: Started on Feb 15, 2021 at 15:34:57 CET
+ncvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/scma20/SAR_XFAB/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/entity/compile0.log
+    /home/scma20/SAR_XFAB/SAR/digital_part/entity/vhdl.vhd
+
+/home/scma20/SAR_XFAB/SAR/digital_part/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_PART (entity):
+	streams: 16, words: 955
+TOOL:	ncvhdl(64)	15.20-s054: Exiting on Feb 15, 2021 at 15:34:57 CET  (total: 00:00:00)

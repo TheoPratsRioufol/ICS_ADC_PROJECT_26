@@ -1,0 +1,15 @@
+("SAR" "switched_comparator" "verilogams" nil) nil
+("analogLib" "vcvs" "spectre" _spectreVCPrim) t
+("SAR" "digital_part" "a3" nil) nil
+("SAR" "switch" "schematic" nil) nil
+("PRIMLIB" "pe3" "spectre" nil) t
+("SAR" "sar8" "schematic" nil) nil
+("SAR" "voltage_gene" "verilogams" nil) nil
+("PRIMLIB" "ne3" "spectre" nil) t
+("D_CELLS_3V" "NA2_3VX1" "verilogams" nil) nil
+("SAR" "save_es" "verilogams" nil) nil
+("analogLib" "cap" "spectre" _spectreCap) t
+("SAR" "digital_gene" "a1" nil) nil
+("SAR" "switch2" "schematic" nil) nil
+("D_CELLS_3V" "IN_3VX4" "verilogams" nil) nil
+("analogLib" "vdc" "spectre" spectreSrcPrim) t

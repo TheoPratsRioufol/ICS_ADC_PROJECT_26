@@ -1,0 +1,30 @@
+    I77 (clock net7  ) subcircuit
+    SA (SAp SAm Vref2 VA) switch
+    V1 (Vref 0) vsource dc=3.3 type=dc
+    V3 (vdd3! 0) vsource dc=3.3 type=dc
+    C0 (net26 VA) capacitor c=C/16
+    C3 (net21 VA) capacitor c=C/4
+    C2 (net20 VA) capacitor c=C/2
+    C1 (net19 VA) capacitor c=C/8
+    C4 (net13 VA) capacitor c=C/32
+    C5 (net12 VA) capacitor c=C/64
+    C6 (net9 VA) capacitor c=C/128
+    C7 (net6 VA) capacitor c=C/128
+    C8 (net2 VA) capacitor c=C
+    I9 digital_part
+    I34 (Sp\<4\> Sm\<4\> net26 0 net5) switch2
+    SB (SBp SBm net5 Analog_in Vref) switch2
+    I35 (Sp\<5\> Sm\<5\> net19 0 net5) switch2
+    I37 (Sp\<6\> Sm\<6\> net21 0 net5) switch2
+    I36 (Sp\<7\> Sm\<7\> net20 0 net5) switch2
+    I38 (Sp\<2\> Sm\<2\> net12 0 net5) switch2
+    I39 (Sp\<3\> Sm\<3\> net13 0 net5) switch2
+    I40 (Sp\<1\> Sm\<1\> net9 0 net5) switch2
+    S0 (Sp\<0\> Sm\<0\> net6 0 net5) switch2
+    I42 (Sp\<8\> Sm\<8\> net2 0 net5) switch2
+    E0 (Vref2 0 Vref 0) vcvs gain=0.5
+    I63 (0 vdd3! VA Vref2 net7 net3 net4) switched_comparator
+    I79 (comp net4 net1  ) subcircuit
+    I78 (net1 net3 comp  ) subcircuit
+ends sar8
+// End of subcircuit definition.

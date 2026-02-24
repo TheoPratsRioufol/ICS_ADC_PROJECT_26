@@ -1,0 +1,6 @@
+
+switch I1 ( .\S+ (\S- ), .\CMD+ (\CMD+ ), .\CMD- (\CMD- ), .\S- (S2));
+
+switch I0 ( .\S+ (\S- ), .\CMD+ (\CMD- ), .\CMD- (\CMD+ ), .\S- (S1));
+
+endmodule

@@ -1,0 +1,15 @@
+( ( net
+( "vdd!" "cds_globals.\\vdd! " )
+( "gnd!" "cds_globals.\\gnd! " )
+( "S-" "\\S- " )
+( "CMD-" "\\CMD- " )
+( "S+" "\\S+ " )
+( "CMD+" "\\CMD+ " )
+ )
+( term
+( "S-" "\\S- " )
+( "CMD-" "\\CMD- " )
+( "S+" "\\S+ " )
+( "CMD+" "\\CMD+ " )
+ )
+ )

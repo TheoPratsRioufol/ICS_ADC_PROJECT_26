@@ -1,0 +1,13 @@
+
+// Library name: SAR
+// Cell name: test_sar8
+// View name: schematic
+// Inherited view list: spectre spice pspice verilog verilogams behavioral
+// functional systemVerilog schematic veriloga vhdl vhdlams wreal
+I19 (Analog_in clock reset result\<7\> result\<6\> result\<5\> result\<4\> \
+        result\<3\> result\<2\> result\<1\> result\<0\> start) sar8
+I18 (Analog_in result\<7\> result\<6\> result\<5\> result\<4\> result\<3\> \
+        result\<2\> result\<1\> result\<0\> start) save_es print=0
+V0 (vdd! 0) vsource dc=3.3 type=dc
+I16 digital_gene
+I17 (Analog_in 0 start) voltage_gene pas=0.01

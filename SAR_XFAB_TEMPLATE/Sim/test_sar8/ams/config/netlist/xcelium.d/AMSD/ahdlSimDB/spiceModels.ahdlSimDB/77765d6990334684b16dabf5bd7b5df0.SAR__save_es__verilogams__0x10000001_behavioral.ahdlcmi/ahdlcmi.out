@@ -1,0 +1,52 @@
+ahdlcmicompile: Compiling ahdlcmi in xcelium.d/AMSD/ahdlSimDB/spiceModels.ahdlSimDB//77765d6990334684b16dabf5bd7b5df0.SAR__save_es__verilogams__0x10000001_behavioral.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Tue Feb 24 17:24:59 CET 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /usr/local/cadence/spectre/bin:/usr/local/cadence/spectre/tools/bin/64bit:/usr/local/cadence/spectre/tools/bin:/usr/local/cadence/ic_6.18/bin:/usr/local/cadence/ic_6.18/tools/bin/64bit:/usr/local/cadence/ic_6.18/tools/bin:/usr/local/XFAB/x_all/cadence/xenv:/usr/local/cadence/assura_618/tools/assura/bin:/usr/local/cadence/assura_618/tools/bin:/usr/local/cadence/pvs/tools/bin:/usr/local/cadence/quantus/tools/bin:/usr/local/cadence/innovus/tools/bin:/usr/local/cadence/genus/tools/bin:/usr/local/XFAB/x_all/cadence/xenv:/home/ics15/.local/bin:/home/ics15/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/ics15/bin:/usr/local/eclipse:/usr/local/MATLAB/R2021a/bin:/usr/local/altera_WebEdition/23.1std/quartus/bin:/usr/local/altera_WebEdition/20.1/modelsim_ase/linuxaloem:/usr/local/AustriaMS/AMS_4.10/cds/bin:/usr/local/cadence/confrml/tools/bin:/usr/local/cadence/xcelium/bin:/usr/local/cadence/xcelium/tools/bin/64bit:/usr/local/cadence/xcelium/tools/bin:/usr/local/cadence/ic_6.18/tools/dfII/bin:/usr/local/cadence/ic_6.18/tools/plot/bin:/bin
+LD_LIBRARY_PATH:  /usr/local/cadence/spectre/tools/TPtools/libstdc++6/lib/64bit:/usr/local/cadence/spectre/tools/TPtools/cuda/lib64:/usr/local/cadence/spectre/tools/giganta/lib/64bit:/usr/local/cadence/spectre/tools/mdl/lib/64bit:/usr/local/cadence/spectre/tools/mmsim/lib/64bit:/usr/local/cadence/spectre/tools/hdf/lib/64bit:/usr/local/cadence/spectre/tools/python/64bit/lib:/usr/local/cadence/spectre/tools/inca/lib/64bit:/usr/local/cadence/spectre/tools/awrmwo/lib/64bit:/usr/local/cadence/spectre/tools/spectre/lib/64bit:/usr/local/cadence/spectre/tools/dfII/lib/64bit:/usr/local/cadence/spectre/tools/TPtools/zlib/lib64:/usr/local/cadence/spectre/tools/TPtools/grpc/lib:/usr/local/cadence/spectre/tools/TPtools/grpc/lib64:/usr/local/cadence/spectre/tools/fmc/lib/64bit:/usr/local/cadence/spectre/tools/lib/64bit:/usr/local/cadence/spectre/tools/lib/64bit:/usr/local/cadence/spectre/tools/lib:/usr/local/cadence/spectre/tools/lib/64bit/RHEL/RHEL9:/usr/local/cadence/xcelium/tools/lib/64bit:/usr/local/cadence/xcelium/tools/lib/64bit/SuSE:/usr/local/cadence/ic_6.18/share/oa/lib/lnx86/opt:/usr/local/cadence/ic_6.18/tools/dfII/lib/64bit:/usr/local/cadence/ic_6.18/tools/sev/lib/64bit:/usr/local/cadence/ic_6.18/tools/lib/64bit:/usr/local/cadence/ic_6.18/tools/lib:/usr/local/cadence/ic_6.18/tools/hdf5/lib/64bit:/usr/local/cadence/ic_6.18/tools/lz4/lib/64bit:/usr/local/cadence/ic_6.18/tools/python/64bit/lib:/usr/local/cadence/xcelium/tools.lnx86/lib/64bit:/usr/local/cadence/ic_6.18/tools/TPtools/grpc/lib64:/usr/local/cadence/ic_6.18/tools/TPtools/grpc/lib:/usr/local/cadence/ic_6.18/tools/Qt/v5/64bit/lib:/usr/local/lib
+/usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j8 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file SAR__save_es__verilogams__0x10000001_behavioral.c (optimize)
+/usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /usr/local/cadence/spectre/tools.lnx86/cdsgcc/gcc/9.3/bin/gcc  -ffast-math  -fno-unsafe-math-optimizations -Wno-error=int-conversion -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include -c SAR__save_es__verilogams__0x10000001_behavioral.c -o obj/optimize/5.0/SAR__save_es__verilogams__0x10000001_behavioral.o || rm -f -f obj/optimize/5.0/SAR__save_es__verilogams__0x10000001_behavioral.o
+<stdin>: In function 'SAR__save_es__verilogams__0x10000001_behavioral_pGetInstanceParams':
+<stdin>:1109:41: warning: implicit declaration of function 'devGetInstKnotStatus'; did you mean 'devGetInstState'? [-Wimplicit-function-declaration]
+<stdin>: In function 'SAR__save_es__verilogams__0x10000001_behavioral_pDC_Load':
+<stdin>:1393:41: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'SAR__save_es__verilogams__0x10000001_behavioral_pCompare':
+<stdin>:1809:36: warning: assignment to 'long int' from 'long int *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1810:23: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |              ^~~~~~
+<stdin>:1810:57: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5,
+                 from /usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:80,
+                 from <stdin>:24:
+/usr/include/string.h:43:14: note: expected 'const void * restrict' but argument is of type 'long int'
+   43 | extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+      |              ^~~~~~
+<stdin>:1812:36: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'SAR__save_es__verilogams__0x10000001_behavioral_pGetMatrixPointers':
+<stdin>:1968:33: warning: assignment to 'long int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'SAR__save_es__verilogams__0x10000001_behavioral_pAnalTranLoad':
+<stdin>:2646:42: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:
+/usr/local/cadence/spectre/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2884:63: note: expected 'void *' but argument is of type 'long int'
+ 2884 | ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+      |                                                               ^~~~~~
+<stdin>: In function 'ahdlSAR__save_es__verilogams__0x10000001_behavioralDescInstall':
+<stdin>:2965:2: warning: implicit declaration of function 'descSetDeviceType'; did you mean 'descSetType'? [-Wimplicit-function-declaration]
+<stdin>:2967:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:2974:2: warning: implicit declaration of function 'descSetCopySignals'; did you mean 'descSetMapSignals'? [-Wimplicit-function-declaration]
+<stdin>:2998:2: warning: implicit declaration of function 'descSetGetDigitalOffset' [-Wimplicit-function-declaration]
+<stdin>:2999:2: warning: implicit declaration of function 'descSetVATermInfo'; did you mean 'descSetGetInfo'? [-Wimplicit-function-declaration]
+<stdin>:3000:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+rm -f -rf SAR__save_es__verilogams__0x10000001_behavioral.c
+/usr/local/cadence/spectre/tools.lnx86/cdsgcc/gcc/9.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_SAR__save_es__verilogams__0x10000001_behavioral.so ./obj/optimize/5.0/SAR__save_es__verilogams__0x10000001_behavioral.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -lm -s 
+rm -f -f ./obj/optimize/5.0/SAR__save_es__verilogams__0x10000001_behavioral.o 

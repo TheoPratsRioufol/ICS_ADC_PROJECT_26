@@ -1,0 +1,29 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "test_switch"
+  repList "spectre cmos_sch schematic veriloga ahdl"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  globalHierPrefix "cds_globals."
+  prefixHierarchyWithCV "YES"
+  netlistDir "/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_switch/ams/config/netlist/digital"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+  slashCheck   "t"
+ )
+( net
+( "vdd!" "cds_globals.\\vdd! " )
+( "gnd!" "cds_globals.\\gnd! " )
+ )
+( model
+( "SAR/test_switch/schematic" "test_switch" )
+ )
+( "wn" "cds_globals.wn" )
+( "wp" "cds_globals.wp" )
+( "test_switch" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,7 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+// Create required libraries 
+-makelib SAR 
+-endlib 

@@ -1,0 +1,11 @@
+//Verilog-AMS HDL for "SAR", "voltage_gene" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module voltage_gene ( vout_p, vout_n, clock );
+
+  output vout_n;
+  input clock;
+  output vout_p;
+endmodule

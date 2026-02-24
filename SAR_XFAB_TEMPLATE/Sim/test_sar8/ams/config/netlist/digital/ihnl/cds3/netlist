@@ -1,0 +1,29 @@
+// Library - SAR, Cell - test_sar8, View - schematic
+// LAST TIME SAVED: Feb 24 17:19:24 2026
+// NETLIST TIME: Feb 24 17:24:44 2026
+`timescale 1ns / 1ps 
+
+`worklib SAR
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="SAR", dfII_cell="test_sar8", dfII_view="schematic", worklib_name="SAR", view_name="schematic", last_save_time="Feb 24 17:19:24 2026" *)
+
+module test_sar8 ();
+
+// Buses in the design
+
+wire  [7:0]  result;
+
+
+sar8 I19 ( .result(result[7:0]), .Analog_in(Analog_in), .clock(clock), 
+    .reset(reset), .start(start));
+
+save_es I18 ( .s(result), .clock(start), .inp(Analog_in));
+
+digital_gene I16 ( .start(start), .clock(clock), .reset(reset));
+
+voltage_gene I17 ( .vout_n(cds_globals.\gnd! ), .vout_p(Analog_in), 
+    .clock(start));
+
+endmodule

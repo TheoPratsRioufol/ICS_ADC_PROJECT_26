@@ -1,0 +1,7 @@
+
+// Library name: SAR
+// Cell name: test_sar8
+// View name: schematic
+// Inherited view list: schematic
+I19 sar8
+V0 (vdd! 0) vsource dc=3.3 type=dc

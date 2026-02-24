@@ -1,0 +1,6 @@
+
+// Library name: SAR
+// Cell name: sar8
+// View name: schematic
+// Inherited view list: schematic
+subckt sar8

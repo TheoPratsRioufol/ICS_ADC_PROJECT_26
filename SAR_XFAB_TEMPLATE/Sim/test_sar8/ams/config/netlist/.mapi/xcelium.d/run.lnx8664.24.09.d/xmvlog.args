@@ -1,0 +1,50 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d
+-RUNMODE
+-amsdlibdir
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-ALLOWREDEFINITION
+-INCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-XMLIBDIRPATH
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/
+-CDSLIB
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi//dummyMapi.vams
+-HDLVAR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/hdlrun.var
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams
+/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/NA2_3VX1/verilogams/verilog.vams
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams
+/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/IN_3VX4/verilogams/verilog.vams
+-amscompilefile
+"file:/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/IN_3VX4/verilogams/verilog.vams lib:D_CELLS_3V cell:IN_3VX4 view:verilogams"
+-amscompilefile
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams lib:SAR cell:switched_comparator view:verilogams"
+-amscompilefile
+"file:/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/NA2_3VX1/verilogams/verilog.vams lib:D_CELLS_3V cell:NA2_3VX1 view:verilogams"
+-amscompilefile
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams lib:SAR cell:save_es view:verilogams"
+-amscompilefile
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams lib:SAR cell:voltage_gene view:verilogams"
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/xllibs
+-ALLOWUNBOUND
+-HASVLOGAMSINPUT
+-amscommfile
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amscomm.list

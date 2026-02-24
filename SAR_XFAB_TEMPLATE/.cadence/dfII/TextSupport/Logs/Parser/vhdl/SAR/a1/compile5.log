@@ -1,0 +1,19 @@
+TOOL:	xmvhdl(64)	22.09-s011: Started on Jan 24, 2024 at 16:18:14 CET
+xmvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/ics15/SAR_XFAB_TEMPLATE/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/a1/compile5.log
+    /home/ics15/SAR_XFAB_TEMPLATE/SAR/digital_gene/a1/vhdl.vhd
+
+/home/ics15/SAR_XFAB_TEMPLATE/SAR/digital_gene/a1/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_GENE:A1 (architecture):
+	streams: 1, words: 195
+TOOL:	xmvhdl(64)	22.09-s011: Exiting on Jan 24, 2024 at 16:18:14 CET  (total: 00:00:00)

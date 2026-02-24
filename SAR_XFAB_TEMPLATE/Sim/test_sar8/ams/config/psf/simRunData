@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"SAR\" \"test_sar8\" \"config\" \"\")"
+"simulator" "ams"
+"temperature" "27"
+"host" ""
+"date" "Feb 24 17:24:43 2026"
+"title" ""
+"analysisList" "()"
+END

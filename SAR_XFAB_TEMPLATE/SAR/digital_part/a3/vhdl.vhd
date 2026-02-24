@@ -1,0 +1,133 @@
+architecture a3 of digital_part is 
+
+type state_machine is (SAMPLE, HOLD, COMPARE);
+signal state : state_machine :=SAMPLE;
+
+signal cont:  unsigned(3 downto 0) ;
+signal N: integer := 8; -- ADC number of bits
+
+signal partialResult :  std_logic_vector(7 downto 0) ;
+signal lastResult :  std_logic_vector(7 downto 0) ;
+signal SAcmd, SBcmd : std_logic;
+signal  Smcmd :  std_logic_vector(8 downto 0);
+
+
+begin
+
+
+
+ process(clock)
+	begin
+		if (reset='0') then
+			state <= SAMPLE;
+			cont<="0000";
+			SAcmd<='1';
+			SBcmd<='0';
+			Smcmd <= (others =>'1');
+			partialResult <= (others =>'0');
+			lastResult <= (others =>'0');
+
+		elsif rising_edge(clock) then
+			case state is
+				when SAMPLE => -- Sampling state
+					result <= lastResult;
+					cont<=to_unsigned(0, cont'length);
+					SAcmd<='1';
+					SBcmd<='0';
+					Smcmd <= (others =>'1');
+					partialResult <= (others =>'0');
+					if (start ='1') then
+					    state<= HOLD;
+						SAcmd<='0';
+						SBcmd<='0';
+						Smcmd <= (others =>'1');
+					end if;
+							
+				when HOLD => -- Hold state
+					state<= COMPARE;
+					SAcmd<='0';
+					SBcmd<='1';
+					for i in integer range 0 to N-1 loop
+						Smcmd(i) <='0';
+					end loop;
+					Smcmd(N) <='1';
+					cont<=to_unsigned(1, cont'length);
+
+
+				when COMPARE => -- Compare state during N steps
+
+
+partialResult(to_integer(cont - to_unsigned(1, cont'length))) <= comp;
+
+
+for i in 1 to N+1 loop
+
+	if (i < cont) then
+		Smcmd(N - i + 1) <= partialResult(i - 1);
+	elsif (i = cont) then
+		Smcmd(N - i + 1) <= comp;
+	elsif (i = cont+1) then
+		Smcmd(N - i + 1) <= '1';
+	else
+		Smcmd(N - i + 1) <= '0';
+	end if;
+
+end loop;
+
+			
+					if (cont<N) then
+						cont<=cont+1;
+					else
+						state<=SAMPLE;
+						cont<=to_unsigned(0, cont'length);
+						SAcmd<='1';
+						SBcmd<='0';
+						Smcmd <= (others =>'1');
+						lastResult(0) <= comp;
+						for i in 0 to N-2 loop
+							lastResult(N-i-1) <= partialResult(i);
+						end loop;
+					
+					end if;
+					
+				when others => null;
+			end case;
+		
+partialResultFlag <= partialResult;
+--contFlag <= cont;
+
+			if (state = HOLD) then
+				stateHold <= '1';
+			else
+				stateHold <= '0';
+			end if;
+
+	if (state = SAMPLE) then
+				stateSample <= '1';
+			else
+				stateSample <= '0';
+			end if;
+			
+
+	if (state = COMPARE) then
+				stateCompare <= '1';
+			else
+				stateCompare <= '0';
+			end if;
+			
+	
+			
+		end if;
+end process; 
+
+	SAm<= not SAcmd;
+			SAp<= SAcmd;
+			SBm<= not SBcmd;
+			SBp<= SBcmd;
+			Sm <= not Smcmd;
+			Sp <= Smcmd;
+	debugFlag <= comp;
+
+clkcomp <= clock;
+
+end architecture a3 ; 

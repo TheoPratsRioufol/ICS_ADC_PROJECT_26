@@ -1,0 +1,16 @@
+("SAR" "test_sar8" "schematic" "schematic") nil
+("SAR" "switched_comparator" "verilogams" "verilogams") nil
+("analogLib" "vcvs" "spectre" "spectre") nil
+("SAR" "digital_part" "a3" "a3") nil
+("SAR" "switch" "schematic" "schematic") nil
+("PRIMLIB" "pe3" "spectre" "spectre") nil
+("SAR" "sar8" "schematic" "schematic") nil
+("SAR" "voltage_gene" "verilogams" "verilogams") nil
+("PRIMLIB" "ne3" "spectre" "spectre") nil
+("D_CELLS_3V" "NA2_3VX1" "verilogams" "verilogams") nil
+("SAR" "save_es" "verilogams" "verilogams") nil
+("analogLib" "cap" "spectre" "spectre") nil
+("SAR" "digital_gene" "a1" "a1") nil
+("SAR" "switch2" "schematic" "schematic") nil
+("D_CELLS_3V" "IN_3VX4" "verilogams" "verilogams") nil
+("analogLib" "vdc" "spectre" "spectre") nil

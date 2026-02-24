@@ -1,0 +1,23 @@
+TOOL:	xmvhdl(64)	24.09-s011: Started on Feb 05, 2026 at 16:55:55 CET
+xmvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/entity2/compile0.log
+    /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity2/vhdl.vhd
+
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity2/vhdl.vhd:
+xmvhdl_p: *W,DLOLSF: Old source file exists in library, backing up to /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity/vhdl.vhd.old.
+xmvhdl_p: *W,DLOLSF: Old source file exists in library, backing up to /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/a1/vhdl.vhd.old.
+	errors: 0, warnings: 2
+\SAR\.DIGITAL_GENE (entity):
+	streams: 4, words: 87
+\SAR\.DIGITAL_GENE:A1 (architecture):
+	streams: 1, words: 209
+TOOL:	xmvhdl(64)	24.09-s011: Exiting on Feb 05, 2026 at 16:55:55 CET  (total: 00:00:00)

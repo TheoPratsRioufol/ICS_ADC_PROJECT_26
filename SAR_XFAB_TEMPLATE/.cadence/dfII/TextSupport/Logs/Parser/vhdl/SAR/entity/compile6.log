@@ -1,0 +1,19 @@
+TOOL:	xmvhdl(64)	24.09-s011: Started on Feb 05, 2026 at 17:14:33 CET
+xmvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/entity/compile6.log
+    /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity/vhdl.vhd
+
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/digital_gene/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+\SAR\.DIGITAL_GENE (entity):
+	streams: 4, words: 87
+TOOL:	xmvhdl(64)	24.09-s011: Exiting on Feb 05, 2026 at 17:14:33 CET  (total: 00:00:00)

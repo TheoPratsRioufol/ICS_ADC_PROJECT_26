@@ -1,0 +1,35 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-SPECTRE_ARGS
+"-ahdllibdir /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD/ahdlSimDB"
+-amsdlibdir
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/AMSD
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-MESSAGES
++EMGRLOG
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/mapirun.log
+-XLSTIME
+1771950283
+-XLKEEP
+-XLMODE
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d
+-RUNMODE
+-CDSLIB
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/cds.lib
+-HDLVAR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/Sim/test_sar8/ams/config/netlist/.mapi/xcelium.d/run.lnx8664.24.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	24.09-s011"
+-XLNAME
+./.mapi/xcelium.d/run.lnx8664.24.09.d/pantin_117273

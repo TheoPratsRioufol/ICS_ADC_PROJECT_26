@@ -1,0 +1,36 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-timescale
+1ns/1ns
+-DISCIPLINE
+logic
+-DELAY_MODE
+None
+-NOVITALACCL
+-ACCESS
+r
+-AMSPARTINFO
+../psf/partition.info
+-RNM_PARTINFO
+-MODELINCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-AMSCONNRULES
+ConnRules_inhconn_full_fast_gnd
+
+SAR.test_sar8:schematic
+
+cds_globals
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/voltage_gene/verilogams/verilog.vams lib:SAR cell:voltage_gene view:verilogams"
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams lib:SAR cell:save_es view:verilogams"
+-AMSCOMPILEFILE
+"file:/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/NA2_3VX1/verilogams/verilog.vams lib:D_CELLS_3V cell:NA2_3VX1 view:verilogams"
+-AMSCOMPILEFILE
+"file:/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/switched_comparator/verilogams/verilog.vams lib:SAR cell:switched_comparator view:verilogams"
+-AMSCOMPILEFILE
+"file:/usr/local/XFAB/xh018/diglibs/D_CELLS_3V/v2_1/cadence_IC61/v2_1_1_1/D_CELLS_3V/IN_3VX4/verilogams/verilog.vams lib:D_CELLS_3V cell:IN_3VX4 view:verilogams"
+-SPECTRE_ARGS
++aps

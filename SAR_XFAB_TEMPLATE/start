@@ -1,0 +1,10 @@
+source ./cadencepath
+
+# x-fab XH018
+export X_DIR=/usr/local/XFAB
+export PATH=$X_DIR/x_all/cadence/xenv:$PATH
+export QT_XCB_GL_INTEGRATION=none
+
+
+#xkit -u -t xh018 --modules 1141 
+virtuoso

@@ -1,0 +1,251 @@
+`include "constants.vams"
+
+nature Power
+  access = Pwr;
+  units = "W";
+  abstol = 1e-09;
+endnature
+
+
+nature Position
+  access = Pos;
+  units = "m";
+  abstol = 1e-06;
+  ddt_nature = Velocity;
+endnature
+
+
+nature Angular_Acceleration
+  access = Alpha;
+  units = "rads/s^2";
+  abstol = 1e-06;
+  idt_nature = Angular_Velocity;
+endnature
+
+
+nature Temperature
+  access = Temp;
+  units = "C";
+  abstol = 0.0001;
+endnature
+
+
+nature Velocity
+  access = Vel;
+  units = "m/s";
+  abstol = 1e-06;
+  idt_nature = Position;
+  ddt_nature = Acceleration;
+endnature
+
+
+nature Acceleration
+  access = Acc;
+  units = "m/s^2";
+  abstol = 1e-06;
+  idt_nature = Velocity;
+  ddt_nature = Impulse;
+endnature
+
+
+nature Flux
+  access = Phi;
+  units = "Wb";
+  abstol = 1e-09;
+  ddt_nature = Voltage;
+endnature
+
+
+nature Charge
+  access = Q;
+  units = "coul";
+  abstol = 1e-14;
+  ddt_nature = Current;
+endnature
+
+
+nature Impulse
+  access = Imp;
+  units = "m/s^3";
+  abstol = 1e-06;
+  idt_nature = Acceleration;
+endnature
+
+
+nature Voltage
+  access = V;
+  units = "V";
+  abstol = 1e-06;
+  idt_nature = Flux;
+endnature
+
+
+nature Angular_Force
+  access = Tau;
+  units = "N*m";
+  abstol = 1e-06;
+endnature
+
+
+nature Magneto_Motive_Force
+  access = MMF;
+  units = "A*turn";
+  abstol = 1e-12;
+endnature
+
+
+nature Force
+  access = F;
+  units = "N";
+  abstol = 1e-06;
+endnature
+
+
+nature Angular_Velocity
+  access = Omega;
+  units = "rads/s";
+  abstol = 1e-06;
+  idt_nature = Angle;
+  ddt_nature = Angular_Acceleration;
+endnature
+
+
+nature Current
+  access = I;
+  units = "A";
+  abstol = 1e-12;
+  idt_nature = Charge;
+endnature
+
+
+nature Angle
+  access = Theta;
+  units = "rads";
+  abstol = 1e-06;
+  ddt_nature = Angular_Velocity;
+endnature
+
+
+discipline kinematic_v
+  domain continuous;
+  potential Velocity;
+  flow Force;
+enddiscipline
+
+
+discipline rotational_omega
+  domain continuous;
+  potential Angular_Velocity;
+  flow Angular_Force;
+enddiscipline
+
+
+discipline electrical
+  domain continuous;
+  potential Voltage;
+  flow Current;
+enddiscipline
+
+
+discipline rotational
+  domain continuous;
+  potential Angle;
+  flow Angular_Force;
+enddiscipline
+
+
+discipline kinematic
+  domain continuous;
+  potential Position;
+  flow Force;
+enddiscipline
+
+
+discipline voltage
+  domain continuous;
+  potential Voltage;
+enddiscipline
+
+
+discipline magnetic
+  domain continuous;
+  potential Magneto_Motive_Force;
+  flow Flux;
+enddiscipline
+
+
+discipline thermal
+  domain continuous;
+  potential Temperature;
+  flow Power;
+enddiscipline
+
+
+discipline current
+  domain continuous;
+  potential Current;
+enddiscipline
+
+(* vams_to_va="/usr/local/XFAB/x_all/diglibs/xfab_connectLib/v1_0/cadence_IC61/v1_0_1/xfab_connectLib/L2E_2_inhconn_gnd.vams" *)
+(* ams_ie *)
+
+module worklib__L2E_2_inhconn_gnd__vams__0x10000001_behavioral(Aout, \vdd! , \gnd! );
+ //L=68
+parameter real vlo = 0;
+//L=69
+parameter real vhi = 1;
+//L=70
+parameter real vthi = 0;
+//L=71
+parameter real vtlo = 0;
+//L=72
+parameter real vx = vlo;
+//L=73
+parameter real tr = 2e-10;
+//L=74
+parameter real tf = tr;
+//L=75
+parameter real ttol_t = ((tr+tf)/20);
+//L=76
+parameter real tdelay = 0;
+//L=77
+parameter real rhi = 200;
+//L=78
+parameter real rlo = rhi;
+//L=79
+parameter real rz = 10000000.0;
+//L=80
+parameter real rx = (10*(rlo+rhi));
+//L=56
+electrical Aout;
+//L=61
+(* vams_inter_node *) electrical \vdd! ;
+//L=64
+(* vams_inter_node *) electrical \gnd! ;
+//L=82
+real Vds;
+//L=83
+real Vas;
+//L=85
+real Vout;
+//L=85
+real Rout;
+//L=84
+(* digital="13" *) parameter real Vstate;
+//L=84
+(* digital="13" *) parameter real Rstate;
+analog
+   begin
+//L=101
+    (Vds = V(\vdd! , \gnd! ) );
+//L=102
+    (Vas = V(Aout, \gnd! ) );
+//L=103
+    (Rout = (transition(Rstate, tdelay, tr, tf, ttol_t)));
+//L=104
+    (Vout = (Vds*(transition(Vstate, tdelay, tr, tf, ttol_t))));
+//L=105
+    I(Aout, \gnd! )  <+ ((Vas-Vout)/Rout);
+  end
+
+endmodule

@@ -1,0 +1,8 @@
+
+// Library name: SAR
+// Cell name: sar8
+// View name: schematic
+// Inherited view list: spectre spice pspice verilog verilogams behavioral
+// functional systemVerilog schematic veriloga vhdl vhdlams wreal
+subckt sar8 Analog_in clock reset result\<7\> result\<6\> result\<5\> \
+        result\<4\> result\<3\> result\<2\> result\<1\> result\<0\> start

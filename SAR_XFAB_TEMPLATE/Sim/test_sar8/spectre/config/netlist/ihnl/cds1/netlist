@@ -1,0 +1,4 @@
+    I1 (CMD\+ CMD\- S\- S2) switch
+    I0 (CMD\- CMD\+ S\- S1) switch
+ends switch2
+// End of subcircuit definition.

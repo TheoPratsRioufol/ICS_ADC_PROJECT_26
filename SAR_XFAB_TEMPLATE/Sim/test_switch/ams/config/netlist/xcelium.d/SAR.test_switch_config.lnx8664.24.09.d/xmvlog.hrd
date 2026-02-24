@@ -1,0 +1,16 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-VTIMESCALE
+1ns/1ns
+-MODELINCDIR
+/home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/
+-DEFINE
+CDS_SELECT_CRS
+-DEFINE
+CONNRULES_INHCONN_FULL_FAST_GND
+-SNAPSHOT
+SAR.test_switch:config

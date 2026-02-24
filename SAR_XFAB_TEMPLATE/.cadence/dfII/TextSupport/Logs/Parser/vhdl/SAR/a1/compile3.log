@@ -1,0 +1,20 @@
+TOOL:	ncvhdl(64)	15.20-s054: Started on Feb 16, 2021 at 15:24:33 CET
+ncvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \SAR\
+    -ERRORMAX 100
+    -LOGFILE /home/ics02/SAR_XFAB_TEMPLATE/.cadence/dfII/TextSupport/Logs/Parser/vhdl/SAR/a1/compile3.log
+    /home/ics02/SAR_XFAB_TEMPLATE/SAR/digital_part/a1/vhdl.vhd
+
+/home/ics02/SAR_XFAB_TEMPLATE/SAR/digital_part/a1/vhdl.vhd:
+architecture a1 of digital_part is
+                                   |
+ncvhdl_p: *E,EXPBEG (/home/ics02/SAR_XFAB_TEMPLATE/SAR/digital_part/a1/vhdl.vhd,1|35): expecting the reserved word 'BEGIN' [1.2].
+	errors: 1, warnings: 0
+TOOL:	ncvhdl(64)	15.20-s054: Exiting on Feb 16, 2021 at 15:24:34 CET  (total: 00:00:01)

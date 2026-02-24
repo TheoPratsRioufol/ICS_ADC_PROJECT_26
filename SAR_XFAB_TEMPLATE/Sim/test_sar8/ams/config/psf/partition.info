@@ -1,0 +1,680 @@
+( global ( resolution_type basic ) )
+
+( net test_sar8.clock test_sar8.clock digital logic )
+( net test_sar8.I19.clock test_sar8.clock digital logic )
+( net test_sar8.I19.I77.A test_sar8.clock digital logic )
+
+( net test_sar8.I19.clk_bar test_sar8.I19.clk_bar digital logic )
+( net test_sar8.I19.I63.clock test_sar8.I19.clk_bar digital logic )
+( net test_sar8.I19.I77.Q test_sar8.I19.clk_bar digital logic )
+
+( net test_sar8.I19.I77.\gnd!  test_sar8.I19.I77.\gnd!  analog electrical ( resolved_name cds_globals.\gnd!  ) )
+
+( net test_sar8.I19.I77.\vdd3!  test_sar8.I19.I77.\vdd3!  analog electrical ( resolved_name cds_globals.\vdd3!  ) )
+
+( net test_sar8.I19.SAp test_sar8.I19.SAp analog electrical )
+( net test_sar8.I19.SA.\CMD+  test_sar8.I19.SAp analog electrical )
+
+( net test_sar8.I19.SAm test_sar8.I19.SAm analog electrical )
+( net test_sar8.I19.SA.\CMD-  test_sar8.I19.SAm analog electrical )
+
+( net test_sar8.I19.Vref2 test_sar8.I19.Vref2 analog electrical )
+( net test_sar8.I19.I63.vinp test_sar8.I19.Vref2 analog electrical )
+( net test_sar8.I19.SA.\S+  test_sar8.I19.Vref2 analog electrical )
+
+( net test_sar8.I19.VA test_sar8.I19.VA analog electrical )
+( net test_sar8.I19.I63.vinm test_sar8.I19.VA analog electrical )
+( net test_sar8.I19.SA.\S-  test_sar8.I19.VA analog electrical )
+
+( net test_sar8.I19.Sp[4] test_sar8.I19.Sp[4] analog electrical )
+( net test_sar8.I19.I34.\CMD+  test_sar8.I19.Sp[4] analog electrical )
+( net test_sar8.I19.I34.I0.\CMD-  test_sar8.I19.Sp[4] analog electrical )
+( net test_sar8.I19.I34.I1.\CMD+  test_sar8.I19.Sp[4] analog electrical )
+
+( net test_sar8.I19.Sm[4] test_sar8.I19.Sm[4] analog electrical )
+( net test_sar8.I19.I34.\CMD-  test_sar8.I19.Sm[4] analog electrical )
+( net test_sar8.I19.I34.I0.\CMD+  test_sar8.I19.Sm[4] analog electrical )
+( net test_sar8.I19.I34.I1.\CMD-  test_sar8.I19.Sm[4] analog electrical )
+
+( net test_sar8.I19.net26 test_sar8.I19.net26 analog electrical )
+( net test_sar8.I19.I34.\S-  test_sar8.I19.net26 analog electrical )
+( net test_sar8.I19.I34.I0.\S+  test_sar8.I19.net26 analog electrical )
+( net test_sar8.I19.I34.I1.\S+  test_sar8.I19.net26 analog electrical )
+
+( net test_sar8.I19.VB test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I42.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I42.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.S0.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.S0.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I40.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I40.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I39.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I39.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I38.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I38.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I36.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I36.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I37.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I37.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I35.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I35.I1.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.SB.\S-  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.SB.I0.\S+  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.SB.I1.\S+  test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I34.S2 test_sar8.I19.VB analog electrical )
+( net test_sar8.I19.I34.I1.\S-  test_sar8.I19.VB analog electrical )
+
+( net test_sar8.I19.I34.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I34.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net cds_globals.\gnd!  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I17.vout_n test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I63.gnda test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I42.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I42.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.S0.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.S0.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I40.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I40.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I39.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I39.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I38.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I38.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I36.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I36.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I37.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I37.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I35.S1 test_sar8.I19.I34.S1 analog electrical )
+( net test_sar8.I19.I35.I0.\S-  test_sar8.I19.I34.S1 analog electrical )
+
+( net test_sar8.I19.SBp test_sar8.I19.SBp analog electrical )
+( net test_sar8.I19.SB.\CMD+  test_sar8.I19.SBp analog electrical )
+( net test_sar8.I19.SB.I0.\CMD-  test_sar8.I19.SBp analog electrical )
+( net test_sar8.I19.SB.I1.\CMD+  test_sar8.I19.SBp analog electrical )
+
+( net test_sar8.I19.SBm test_sar8.I19.SBm analog electrical )
+( net test_sar8.I19.SB.\CMD-  test_sar8.I19.SBm analog electrical )
+( net test_sar8.I19.SB.I0.\CMD+  test_sar8.I19.SBm analog electrical )
+( net test_sar8.I19.SB.I1.\CMD-  test_sar8.I19.SBm analog electrical )
+
+( net test_sar8.I19.Vref test_sar8.I19.Vref analog electrical )
+( net test_sar8.I19.SB.S2 test_sar8.I19.Vref analog electrical )
+( net test_sar8.I19.SB.I1.\S-  test_sar8.I19.Vref analog electrical )
+
+( net test_sar8.Analog_in test_sar8.Analog_in analog electrical )
+( net test_sar8.I17.vout_p test_sar8.Analog_in analog electrical )
+( net test_sar8.I18.inp test_sar8.Analog_in analog electrical )
+( net test_sar8.I19.Analog_in test_sar8.Analog_in analog electrical )
+( net test_sar8.I19.SB.S1 test_sar8.Analog_in analog electrical )
+( net test_sar8.I19.SB.I0.\S-  test_sar8.Analog_in analog electrical )
+
+( net test_sar8.I19.Sp[5] test_sar8.I19.Sp[5] analog electrical )
+( net test_sar8.I19.I35.\CMD+  test_sar8.I19.Sp[5] analog electrical )
+( net test_sar8.I19.I35.I0.\CMD-  test_sar8.I19.Sp[5] analog electrical )
+( net test_sar8.I19.I35.I1.\CMD+  test_sar8.I19.Sp[5] analog electrical )
+
+( net test_sar8.I19.Sm[5] test_sar8.I19.Sm[5] analog electrical )
+( net test_sar8.I19.I35.\CMD-  test_sar8.I19.Sm[5] analog electrical )
+( net test_sar8.I19.I35.I0.\CMD+  test_sar8.I19.Sm[5] analog electrical )
+( net test_sar8.I19.I35.I1.\CMD-  test_sar8.I19.Sm[5] analog electrical )
+
+( net test_sar8.I19.net19 test_sar8.I19.net19 analog electrical )
+( net test_sar8.I19.I35.\S-  test_sar8.I19.net19 analog electrical )
+( net test_sar8.I19.I35.I0.\S+  test_sar8.I19.net19 analog electrical )
+( net test_sar8.I19.I35.I1.\S+  test_sar8.I19.net19 analog electrical )
+
+( net test_sar8.I19.Sp[6] test_sar8.I19.Sp[6] analog electrical )
+( net test_sar8.I19.I37.\CMD+  test_sar8.I19.Sp[6] analog electrical )
+( net test_sar8.I19.I37.I0.\CMD-  test_sar8.I19.Sp[6] analog electrical )
+( net test_sar8.I19.I37.I1.\CMD+  test_sar8.I19.Sp[6] analog electrical )
+
+( net test_sar8.I19.Sm[6] test_sar8.I19.Sm[6] analog electrical )
+( net test_sar8.I19.I37.\CMD-  test_sar8.I19.Sm[6] analog electrical )
+( net test_sar8.I19.I37.I0.\CMD+  test_sar8.I19.Sm[6] analog electrical )
+( net test_sar8.I19.I37.I1.\CMD-  test_sar8.I19.Sm[6] analog electrical )
+
+( net test_sar8.I19.net21 test_sar8.I19.net21 analog electrical )
+( net test_sar8.I19.I37.\S-  test_sar8.I19.net21 analog electrical )
+( net test_sar8.I19.I37.I0.\S+  test_sar8.I19.net21 analog electrical )
+( net test_sar8.I19.I37.I1.\S+  test_sar8.I19.net21 analog electrical )
+
+( net test_sar8.I19.Sp[7] test_sar8.I19.Sp[7] analog electrical )
+( net test_sar8.I19.I36.\CMD+  test_sar8.I19.Sp[7] analog electrical )
+( net test_sar8.I19.I36.I0.\CMD-  test_sar8.I19.Sp[7] analog electrical )
+( net test_sar8.I19.I36.I1.\CMD+  test_sar8.I19.Sp[7] analog electrical )
+
+( net test_sar8.I19.Sm[7] test_sar8.I19.Sm[7] analog electrical )
+( net test_sar8.I19.I36.\CMD-  test_sar8.I19.Sm[7] analog electrical )
+( net test_sar8.I19.I36.I0.\CMD+  test_sar8.I19.Sm[7] analog electrical )
+( net test_sar8.I19.I36.I1.\CMD-  test_sar8.I19.Sm[7] analog electrical )
+
+( net test_sar8.I19.net20 test_sar8.I19.net20 analog electrical )
+( net test_sar8.I19.I36.\S-  test_sar8.I19.net20 analog electrical )
+( net test_sar8.I19.I36.I0.\S+  test_sar8.I19.net20 analog electrical )
+( net test_sar8.I19.I36.I1.\S+  test_sar8.I19.net20 analog electrical )
+
+( net test_sar8.I19.Sp[2] test_sar8.I19.Sp[2] analog electrical )
+( net test_sar8.I19.I38.\CMD+  test_sar8.I19.Sp[2] analog electrical )
+( net test_sar8.I19.I38.I0.\CMD-  test_sar8.I19.Sp[2] analog electrical )
+( net test_sar8.I19.I38.I1.\CMD+  test_sar8.I19.Sp[2] analog electrical )
+
+( net test_sar8.I19.Sm[2] test_sar8.I19.Sm[2] analog electrical )
+( net test_sar8.I19.I38.\CMD-  test_sar8.I19.Sm[2] analog electrical )
+( net test_sar8.I19.I38.I0.\CMD+  test_sar8.I19.Sm[2] analog electrical )
+( net test_sar8.I19.I38.I1.\CMD-  test_sar8.I19.Sm[2] analog electrical )
+
+( net test_sar8.I19.net12 test_sar8.I19.net12 analog electrical )
+( net test_sar8.I19.I38.\S-  test_sar8.I19.net12 analog electrical )
+( net test_sar8.I19.I38.I0.\S+  test_sar8.I19.net12 analog electrical )
+( net test_sar8.I19.I38.I1.\S+  test_sar8.I19.net12 analog electrical )
+
+( net test_sar8.I19.Sp[3] test_sar8.I19.Sp[3] analog electrical )
+( net test_sar8.I19.I39.\CMD+  test_sar8.I19.Sp[3] analog electrical )
+( net test_sar8.I19.I39.I0.\CMD-  test_sar8.I19.Sp[3] analog electrical )
+( net test_sar8.I19.I39.I1.\CMD+  test_sar8.I19.Sp[3] analog electrical )
+
+( net test_sar8.I19.Sm[3] test_sar8.I19.Sm[3] analog electrical )
+( net test_sar8.I19.I39.\CMD-  test_sar8.I19.Sm[3] analog electrical )
+( net test_sar8.I19.I39.I0.\CMD+  test_sar8.I19.Sm[3] analog electrical )
+( net test_sar8.I19.I39.I1.\CMD-  test_sar8.I19.Sm[3] analog electrical )
+
+( net test_sar8.I19.net13 test_sar8.I19.net13 analog electrical )
+( net test_sar8.I19.I39.\S-  test_sar8.I19.net13 analog electrical )
+( net test_sar8.I19.I39.I0.\S+  test_sar8.I19.net13 analog electrical )
+( net test_sar8.I19.I39.I1.\S+  test_sar8.I19.net13 analog electrical )
+
+( net test_sar8.I19.Sp[1] test_sar8.I19.Sp[1] analog electrical )
+( net test_sar8.I19.I40.\CMD+  test_sar8.I19.Sp[1] analog electrical )
+( net test_sar8.I19.I40.I0.\CMD-  test_sar8.I19.Sp[1] analog electrical )
+( net test_sar8.I19.I40.I1.\CMD+  test_sar8.I19.Sp[1] analog electrical )
+
+( net test_sar8.I19.Sm[1] test_sar8.I19.Sm[1] analog electrical )
+( net test_sar8.I19.I40.\CMD-  test_sar8.I19.Sm[1] analog electrical )
+( net test_sar8.I19.I40.I0.\CMD+  test_sar8.I19.Sm[1] analog electrical )
+( net test_sar8.I19.I40.I1.\CMD-  test_sar8.I19.Sm[1] analog electrical )
+
+( net test_sar8.I19.net9 test_sar8.I19.net9 analog electrical )
+( net test_sar8.I19.I40.\S-  test_sar8.I19.net9 analog electrical )
+( net test_sar8.I19.I40.I0.\S+  test_sar8.I19.net9 analog electrical )
+( net test_sar8.I19.I40.I1.\S+  test_sar8.I19.net9 analog electrical )
+
+( net test_sar8.I19.Sp[0] test_sar8.I19.Sp[0] analog electrical )
+( net test_sar8.I19.S0.\CMD+  test_sar8.I19.Sp[0] analog electrical )
+( net test_sar8.I19.S0.I0.\CMD-  test_sar8.I19.Sp[0] analog electrical )
+( net test_sar8.I19.S0.I1.\CMD+  test_sar8.I19.Sp[0] analog electrical )
+
+( net test_sar8.I19.Sm[0] test_sar8.I19.Sm[0] analog electrical )
+( net test_sar8.I19.S0.\CMD-  test_sar8.I19.Sm[0] analog electrical )
+( net test_sar8.I19.S0.I0.\CMD+  test_sar8.I19.Sm[0] analog electrical )
+( net test_sar8.I19.S0.I1.\CMD-  test_sar8.I19.Sm[0] analog electrical )
+
+( net test_sar8.I19.net6 test_sar8.I19.net6 analog electrical )
+( net test_sar8.I19.S0.\S-  test_sar8.I19.net6 analog electrical )
+( net test_sar8.I19.S0.I0.\S+  test_sar8.I19.net6 analog electrical )
+( net test_sar8.I19.S0.I1.\S+  test_sar8.I19.net6 analog electrical )
+
+( net test_sar8.I19.Sp[8] test_sar8.I19.Sp[8] analog electrical )
+( net test_sar8.I19.I42.\CMD+  test_sar8.I19.Sp[8] analog electrical )
+( net test_sar8.I19.I42.I0.\CMD-  test_sar8.I19.Sp[8] analog electrical )
+( net test_sar8.I19.I42.I1.\CMD+  test_sar8.I19.Sp[8] analog electrical )
+
+( net test_sar8.I19.Sm[8] test_sar8.I19.Sm[8] analog electrical )
+( net test_sar8.I19.I42.\CMD-  test_sar8.I19.Sm[8] analog electrical )
+( net test_sar8.I19.I42.I0.\CMD+  test_sar8.I19.Sm[8] analog electrical )
+( net test_sar8.I19.I42.I1.\CMD-  test_sar8.I19.Sm[8] analog electrical )
+
+( net test_sar8.I19.net2 test_sar8.I19.net2 analog electrical )
+( net test_sar8.I19.I42.\S-  test_sar8.I19.net2 analog electrical )
+( net test_sar8.I19.I42.I0.\S+  test_sar8.I19.net2 analog electrical )
+( net test_sar8.I19.I42.I1.\S+  test_sar8.I19.net2 analog electrical )
+
+( net test_sar8.I19.outp test_sar8.I19.outp digital logic )
+( net test_sar8.I19.I78.B test_sar8.I19.outp digital logic )
+( net test_sar8.I19.I63.Outp test_sar8.I19.outp digital logic )
+
+( net test_sar8.I19.outn test_sar8.I19.outn digital logic )
+( net test_sar8.I19.I79.B test_sar8.I19.outn digital logic )
+( net test_sar8.I19.I63.Outn test_sar8.I19.outn digital logic )
+
+( net test_sar8.I19.I63.vdda test_sar8.I19.I63.vdda analog electrical )
+( net cds_globals.\vdd3!  test_sar8.I19.I63.vdda analog electrical )
+
+( net test_sar8.I19.comp test_sar8.I19.comp digital logic )
+( net test_sar8.I19.I78.Q test_sar8.I19.comp digital logic )
+( net test_sar8.I19.I79.A test_sar8.I19.comp digital logic )
+
+( net test_sar8.I19.net1 test_sar8.I19.net1 digital logic )
+( net test_sar8.I19.I78.A test_sar8.I19.net1 digital logic )
+( net test_sar8.I19.I79.Q test_sar8.I19.net1 digital logic )
+
+( net test_sar8.I19.I79.\gnd!  test_sar8.I19.I79.\gnd!  analog electrical ( resolved_name cds_globals.\gnd!  ) )
+
+( net test_sar8.I19.I79.\vdd3!  test_sar8.I19.I79.\vdd3!  analog electrical ( resolved_name cds_globals.\vdd3!  ) )
+
+( net test_sar8.I19.I78.\gnd!  test_sar8.I19.I78.\gnd!  analog electrical ( resolved_name cds_globals.\gnd!  ) )
+
+( net test_sar8.I19.I78.\vdd3!  test_sar8.I19.I78.\vdd3!  analog electrical ( resolved_name cds_globals.\vdd3!  ) )
+
+( net test_sar8.reset test_sar8.reset digital logic )
+( net test_sar8.I19.reset test_sar8.reset digital logic )
+
+( net test_sar8.start test_sar8.start digital logic )
+( net test_sar8.I17.clock test_sar8.start digital logic )
+( net test_sar8.I18.clock test_sar8.start digital logic )
+( net test_sar8.I19.start test_sar8.start digital logic )
+
+( net test_sar8.result[7] test_sar8.result[7] digital logic )
+( net test_sar8.I18.s[7] test_sar8.result[7] digital logic )
+( net test_sar8.I19.result[7] test_sar8.result[7] digital logic )
+
+( net test_sar8.result[6] test_sar8.result[6] digital logic )
+( net test_sar8.I18.s[6] test_sar8.result[6] digital logic )
+( net test_sar8.I19.result[6] test_sar8.result[6] digital logic )
+
+( net test_sar8.result[5] test_sar8.result[5] digital logic )
+( net test_sar8.I18.s[5] test_sar8.result[5] digital logic )
+( net test_sar8.I19.result[5] test_sar8.result[5] digital logic )
+
+( net test_sar8.result[4] test_sar8.result[4] digital logic )
+( net test_sar8.I18.s[4] test_sar8.result[4] digital logic )
+( net test_sar8.I19.result[4] test_sar8.result[4] digital logic )
+
+( net test_sar8.result[3] test_sar8.result[3] digital logic )
+( net test_sar8.I18.s[3] test_sar8.result[3] digital logic )
+( net test_sar8.I19.result[3] test_sar8.result[3] digital logic )
+
+( net test_sar8.result[2] test_sar8.result[2] digital logic )
+( net test_sar8.I18.s[2] test_sar8.result[2] digital logic )
+( net test_sar8.I19.result[2] test_sar8.result[2] digital logic )
+
+( net test_sar8.result[1] test_sar8.result[1] digital logic )
+( net test_sar8.I18.s[1] test_sar8.result[1] digital logic )
+( net test_sar8.I19.result[1] test_sar8.result[1] digital logic )
+
+( net test_sar8.result[0] test_sar8.result[0] digital logic )
+( net test_sar8.I18.s[0] test_sar8.result[0] digital logic )
+( net test_sar8.I19.result[0] test_sar8.result[0] digital logic )
+
+( net test_sar8.I19.net3[0] test_sar8.I19.net3[0] digital logic )
+
+( net test_sar8.I19.net3[1] test_sar8.I19.net3[1] digital logic )
+
+( net test_sar8.I19.net3[2] test_sar8.I19.net3[2] digital logic )
+
+( net test_sar8.I19.net3[3] test_sar8.I19.net3[3] digital logic )
+
+( net test_sar8.I19.partialResultFlag[7] test_sar8.I19.partialResultFlag[7] digital logic )
+
+( net test_sar8.I19.partialResultFlag[6] test_sar8.I19.partialResultFlag[6] digital logic )
+
+( net test_sar8.I19.partialResultFlag[5] test_sar8.I19.partialResultFlag[5] digital logic )
+
+( net test_sar8.I19.partialResultFlag[4] test_sar8.I19.partialResultFlag[4] digital logic )
+
+( net test_sar8.I19.partialResultFlag[3] test_sar8.I19.partialResultFlag[3] digital logic )
+
+( net test_sar8.I19.partialResultFlag[2] test_sar8.I19.partialResultFlag[2] digital logic )
+
+( net test_sar8.I19.partialResultFlag[1] test_sar8.I19.partialResultFlag[1] digital logic )
+
+( net test_sar8.I19.partialResultFlag[0] test_sar8.I19.partialResultFlag[0] digital logic )
+
+( net test_sar8.I19.clkcomp test_sar8.I19.clkcomp digital logic )
+
+( net test_sar8.I19.stateSample test_sar8.I19.stateSample digital logic )
+
+( net test_sar8.I19.stateHold test_sar8.I19.stateHold digital logic )
+
+( net test_sar8.I19.stateCompare test_sar8.I19.stateCompare digital logic )
+
+( net test_sar8.I19.debugFlag test_sar8.I19.debugFlag digital logic )
+
+( net test_sar8.I19.Vcm test_sar8.I19.Vcm analog electrical )
+
+( net test_sar8.I18.file test_sar8.I18.file digital logic )
+
+( net test_sar8.I18.r test_sar8.I18.r digital logic )
+
+( net test_sar8.I17.vlt test_sar8.I17.vlt digital logic (type rnm) )
+
+( net cds_globals.\vdd!  cds_globals.\vdd!  analog electrical )
+
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[8]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[7]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[6]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[5]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[4]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[3]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[2]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[1]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sm[0]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SM(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[8]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[7]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[6]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[5]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[4]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[3]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[2]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[1]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.Sp[0]
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SP(7) logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.SAm
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SAM logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.SAp
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SAP logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.SBm
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SBM logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+( connect
+   worklib.L2E_2_inhconn_gnd:vams
+   test_sar8.I19.SBp
+   electrical
+   analog
+   (
+    ( test_sar8.I19.I9:SBP logic digital )
+   )
+   "connect L2E_2_inhconn_gnd merged"
+   ( (vthi 0.67) (vtlo 0.33) (tr 4e-10) (tf 4e-10) (rlo 200) (rhi 200) (rx 40) (rz 10000000) )
+)
+(instance test_sar8.I19.I77 mixed)
+(instance test_sar8.I19.SA.M0 analog)
+(instance test_sar8.I19.SA.M1 analog)
+(instance test_sar8.I19.SA analog)
+(instance test_sar8.I19.I9 digital)
+(instance test_sar8.I19.I34.I1.M0 analog)
+(instance test_sar8.I19.I34.I1.M1 analog)
+(instance test_sar8.I19.I34.I1 analog)
+(instance test_sar8.I19.I34.I0.M0 analog)
+(instance test_sar8.I19.I34.I0.M1 analog)
+(instance test_sar8.I19.I34.I0 analog)
+(instance test_sar8.I19.I34 analog)
+(instance test_sar8.I19.SB.I1.M0 analog)
+(instance test_sar8.I19.SB.I1.M1 analog)
+(instance test_sar8.I19.SB.I1 analog)
+(instance test_sar8.I19.SB.I0.M0 analog)
+(instance test_sar8.I19.SB.I0.M1 analog)
+(instance test_sar8.I19.SB.I0 analog)
+(instance test_sar8.I19.SB analog)
+(instance test_sar8.I19.I35.I1.M0 analog)
+(instance test_sar8.I19.I35.I1.M1 analog)
+(instance test_sar8.I19.I35.I1 analog)
+(instance test_sar8.I19.I35.I0.M0 analog)
+(instance test_sar8.I19.I35.I0.M1 analog)
+(instance test_sar8.I19.I35.I0 analog)
+(instance test_sar8.I19.I35 analog)
+(instance test_sar8.I19.I37.I1.M0 analog)
+(instance test_sar8.I19.I37.I1.M1 analog)
+(instance test_sar8.I19.I37.I1 analog)
+(instance test_sar8.I19.I37.I0.M0 analog)
+(instance test_sar8.I19.I37.I0.M1 analog)
+(instance test_sar8.I19.I37.I0 analog)
+(instance test_sar8.I19.I37 analog)
+(instance test_sar8.I19.I36.I1.M0 analog)
+(instance test_sar8.I19.I36.I1.M1 analog)
+(instance test_sar8.I19.I36.I1 analog)
+(instance test_sar8.I19.I36.I0.M0 analog)
+(instance test_sar8.I19.I36.I0.M1 analog)
+(instance test_sar8.I19.I36.I0 analog)
+(instance test_sar8.I19.I36 analog)
+(instance test_sar8.I19.I38.I1.M0 analog)
+(instance test_sar8.I19.I38.I1.M1 analog)
+(instance test_sar8.I19.I38.I1 analog)
+(instance test_sar8.I19.I38.I0.M0 analog)
+(instance test_sar8.I19.I38.I0.M1 analog)
+(instance test_sar8.I19.I38.I0 analog)
+(instance test_sar8.I19.I38 analog)
+(instance test_sar8.I19.I39.I1.M0 analog)
+(instance test_sar8.I19.I39.I1.M1 analog)
+(instance test_sar8.I19.I39.I1 analog)
+(instance test_sar8.I19.I39.I0.M0 analog)
+(instance test_sar8.I19.I39.I0.M1 analog)
+(instance test_sar8.I19.I39.I0 analog)
+(instance test_sar8.I19.I39 analog)
+(instance test_sar8.I19.I40.I1.M0 analog)
+(instance test_sar8.I19.I40.I1.M1 analog)
+(instance test_sar8.I19.I40.I1 analog)
+(instance test_sar8.I19.I40.I0.M0 analog)
+(instance test_sar8.I19.I40.I0.M1 analog)
+(instance test_sar8.I19.I40.I0 analog)
+(instance test_sar8.I19.I40 analog)
+(instance test_sar8.I19.S0.I1.M0 analog)
+(instance test_sar8.I19.S0.I1.M1 analog)
+(instance test_sar8.I19.S0.I1 analog)
+(instance test_sar8.I19.S0.I0.M0 analog)
+(instance test_sar8.I19.S0.I0.M1 analog)
+(instance test_sar8.I19.S0.I0 analog)
+(instance test_sar8.I19.S0 analog)
+(instance test_sar8.I19.I42.I1.M0 analog)
+(instance test_sar8.I19.I42.I1.M1 analog)
+(instance test_sar8.I19.I42.I1 analog)
+(instance test_sar8.I19.I42.I0.M0 analog)
+(instance test_sar8.I19.I42.I0.M1 analog)
+(instance test_sar8.I19.I42.I0 analog)
+(instance test_sar8.I19.I42 analog)
+(instance test_sar8.I19.I63 mixed)
+(instance test_sar8.I19.I79 mixed)
+(instance test_sar8.I19.I78 mixed)
+(instance test_sar8.I19.V5 analog)
+(instance test_sar8.I19.V1 analog)
+(instance test_sar8.I19.V3 analog)
+(instance test_sar8.I19.C0 analog)
+(instance test_sar8.I19.C3 analog)
+(instance test_sar8.I19.C2 analog)
+(instance test_sar8.I19.C1 analog)
+(instance test_sar8.I19.C4 analog)
+(instance test_sar8.I19.C5 analog)
+(instance test_sar8.I19.C6 analog)
+(instance test_sar8.I19.C7 analog)
+(instance test_sar8.I19.C8 analog)
+(instance test_sar8.I19.E0 analog)
+(instance test_sar8.I19 mixed)
+(instance test_sar8.I18 mixed)
+(instance test_sar8.I16 digital)
+(instance test_sar8.I17 mixed/dmixed (type rnm))
+(instance test_sar8.V0 analog)
+(instance test_sar8 mixed/dmixed (type rnm))
+(instance cds_globals analog)

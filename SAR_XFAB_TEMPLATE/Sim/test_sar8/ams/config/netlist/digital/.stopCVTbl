@@ -1,0 +1,5 @@
+("analogLib" "vcvs" "spectre" "spectre") t
+("PRIMLIB" "pe3" "spectre" "spectre") t
+("PRIMLIB" "ne3" "spectre" "spectre") t
+("analogLib" "cap" "spectre" "spectre") t
+("analogLib" "vdc" "spectre" "spectre") t

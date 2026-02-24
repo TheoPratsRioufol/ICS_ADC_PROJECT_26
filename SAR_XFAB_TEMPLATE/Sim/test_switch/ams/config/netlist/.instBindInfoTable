@@ -1,0 +1,5 @@
+"V4" ((("analogLib" "vdc" "spectre" "spectre") ("SAR" "test_switch" "schematic" "schematic")))
+"V0" ((("analogLib" "vdc" "spectre" "spectre") ("SAR" "test_switch" "schematic" "schematic")))
+"V5" ((("analogLib" "vdc" "spectre" "spectre") ("SAR" "test_switch" "schematic" "schematic")))
+"V3" ((("analogLib" "idc" "spectre" "spectre") ("SAR" "test_switch" "schematic" "schematic")))
+"E0" ((("analogLib" "vcvs" "spectre" "spectre") ("SAR" "test_switch" "schematic" "schematic")))

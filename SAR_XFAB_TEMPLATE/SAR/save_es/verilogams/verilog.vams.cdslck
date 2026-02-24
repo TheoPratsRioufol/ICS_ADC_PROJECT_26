@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ics15
+HostName                       pantin.breguet.centralesupelec.fr
+ProcessIdentifier              114840
+ProcessCreationTime_UTC        1771949920
+ProcessCreationTime_Readable   Tue Feb 24 17:18:40 2026 CET
+AppIdentifier                  /usr/local/cadence/ic_6.18/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Text Edit
+FilePathUsedToEditLock         /home/ics15/ICS_ADC_PROJECT_26/SAR_XFAB_TEMPLATE/SAR/save_es/verilogams/verilog.vams
+TimeEditLocked                 Tue Feb 24 17:21:37 2026 CET

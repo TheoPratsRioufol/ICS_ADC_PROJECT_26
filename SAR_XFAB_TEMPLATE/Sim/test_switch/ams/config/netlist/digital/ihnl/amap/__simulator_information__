@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"__artInstanceTerminalDelimiter__" "."
+"__artHierarchyDelimiter__" "."
+"__netlister__" "AMS-UNL"
+"__lib__" "SAR"
+"__cell__" "test_switch"
+"__view__" "config"
+"__topcell__" "test_switch"
+"__outputformat__" "psfxl_new"
